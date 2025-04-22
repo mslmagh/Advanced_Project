@@ -12,6 +12,11 @@ interface Product {
   discount?: number;
   rating: number;
   ratingCount: number;
+  brand: string;
+  model: string;
+  hasKargoLabel?: boolean;
+  hasCokAlLabel?: boolean;
+  hasKuponLabel?: boolean;
 }
 
 @Component({
@@ -20,93 +25,110 @@ interface Product {
   imports: [CommonModule, RouterModule, ProductCardComponent],
   template: `
     <div class="home-container">
-      <div class="sections-nav">
-        @for (section of sections; track section.type) {
-          <button 
-            class="section-btn"
-            [class.active]="section.type === 'most-added'"
-          >
-            {{ section.title }}
-          </button>
-        }
+      <!-- Product Section Tabs -->
+      <div class="section-tabs">
+        <button class="tab active">Sepete en çok eklenenler</button>
+        <button class="tab">En çok öne çıkanlar</button>
+        <button class="tab">Flaş Ürünler</button>
       </div>
 
+      <!-- Category Title with See All -->
+      <div class="category-header">
+        <h2>Müslüm, Sana Özel Ürünler</h2>
+        <a href="#" class="see-all">Tümünü Gör <i class="arrow-right"></i></a>
+      </div>
+
+      <!-- Products Grid -->
       <div class="products-grid">
-        @for (product of featuredProducts; track product.id) {
+        @for (product of products; track product.id) {
           <app-product-card [product]="product"></app-product-card>
         }
       </div>
+
+      <!-- Flash Sale Section -->
+      <div class="flash-sale">
+        <div class="flash-header">
+          <div class="flash-title">
+            <i class="flash-icon"></i>
+            <span>Flaş Ürünler</span>
+          </div>
+          <div class="flash-timer">
+            <span class="timer-box">{{ timer.hours }}</span>
+            <span class="timer-box">{{ timer.minutes }}</span>
+            <span class="timer-box">{{ timer.seconds }}</span>
+          </div>
+          <a href="#" class="see-all">Tüm Ürünler <i class="arrow-right"></i></a>
+        </div>
+      </div>
     </div>
   `,
-  styles: [`
-    .home-container {
-      padding: 20px 0;
-    }
-
-    .sections-nav {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid #e5e5e5;
-    }
-
-    .section-btn {
-      padding: 10px 20px;
-      border: none;
-      background: none;
-      font-size: 16px;
-      color: #666;
-      cursor: pointer;
-      position: relative;
-    }
-
-    .section-btn.active {
-      color: #f27a1a;
-      font-weight: 600;
-    }
-
-    .section-btn.active::after {
-      content: '';
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: #f27a1a;
-    }
-
-    .products-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
-    }
-  `]
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  featuredProducts: Product[] = [
+  timer = {
+    hours: '00',
+    minutes: '02',
+    seconds: '46'
+  };
+
+  products: Product[] = [
     {
       id: 1,
       name: 'MOTOYOL Scooter 6y6 125 150 Uyumlu Tornalı Modifiye Ön Maşa Rulmanı',
+      brand: 'MOTOYOL',
+      model: 'Scooter',
       price: 646.66,
       image: 'assets/products/product1.jpg',
       rating: 3.5,
-      ratingCount: 11
+      ratingCount: 11,
+      hasCokAlLabel: true
     },
     {
       id: 2,
       name: 'SpeedUp Speed Up Scooter 6y6 125CC Motosiklet Arka Varyatör',
+      brand: 'SpeedUp',
+      model: 'Speed Up Scooter',
       price: 779,
       originalPrice: 879,
       image: 'assets/products/product2.jpg',
       rating: 3.3,
       ratingCount: 7,
-      discount: 15
+      discount: 15,
+      hasKuponLabel: true
+    },
+    {
+      id: 3,
+      name: 'venucci home & living Quincey Buklelı Yumuşak Peluş Post Halı',
+      brand: 'venucci',
+      model: 'home & living',
+      price: 524.99,
+      image: 'assets/products/product3.jpg',
+      rating: 4.8,
+      ratingCount: 954
+    },
+    {
+      id: 4,
+      name: 'Bando Arora Beatrix (PERFORMANS SET) Japon Kahvesi Demleme Seti',
+      brand: 'Bando',
+      model: 'Arora Beatrix',
+      price: 3403.50,
+      image: 'assets/products/product4.jpg',
+      rating: 4.6,
+      ratingCount: 18,
+      hasCokAlLabel: true
+    },
+    {
+      id: 5,
+      name: "L'eDoren Project X 4.3inc IPS Hd Ekran 10000+ Oyunlu Retro Oyun Konsolu",
+      brand: "L'eDoren",
+      model: 'Project X',
+      price: 2786.02,
+      originalPrice: 2923.72,
+      image: 'assets/products/product5.jpg',
+      rating: 4.5,
+      ratingCount: 15,
+      discount: 30,
+      hasCokAlLabel: true
     }
-  ];
-
-  sections = [
-    { title: 'Sepete en çok eklenenler', type: 'most-added' },
-    { title: 'En çok öne çıkanlar', type: 'featured' },
-    { title: 'Flaş Ürünler', type: 'flash' }
   ];
 }
