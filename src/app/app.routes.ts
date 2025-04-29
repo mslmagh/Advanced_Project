@@ -1,16 +1,10 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
-import { ProductsComponent } from './components/products/products.component';
 
 export const routes: Routes = [
   { 
     path: '', 
     component: HomeComponent 
-  },
-  { 
-    path: 'login', 
-    component: LoginComponent 
   },
   {
     path: 'kadin',
@@ -45,26 +39,16 @@ export const routes: Routes = [
     loadChildren: () => import('./features/elektronik/elektronik.routes').then(m => m.ELEKTRONIK_ROUTES)
   },
   {
-    path: 'cok-satanlar',
-    component: ProductsComponent,
-    data: { type: 'best-sellers' }
-  },
-  {
-    path: 'flas-urunler',
-    component: ProductsComponent,
-    data: { type: 'flash-sale' }
-  },
-  {
-    path: 'hesabim',
-    loadChildren: () => import('./features/account/account.routes').then(m => m.ACCOUNT_ROUTES)
-  },
-  {
-    path: 'favorilerim',
-    loadChildren: () => import('./features/favorites/favorites.routes').then(m => m.FAVORITES_ROUTES)
-  },
-  {
-    path: 'sepetim',
+    path: 'cart',
     loadChildren: () => import('./features/cart/cart.routes').then(m => m.CART_ROUTES)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./features/profile/profile.routes').then(m => m.PROFILE_ROUTES)
+  },
+  {
+    path: 'favorites',
+    loadChildren: () => import('./features/favorites/favorites.routes').then(m => m.FAVORITES_ROUTES)
   },
   { 
     path: '**', 

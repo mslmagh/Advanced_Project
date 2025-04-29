@@ -13,16 +13,15 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    OrderListComponent,
-    OrderDetailComponent
-  ],
+  declarations: [],
   imports: [
     SharedModule,
     MatTableModule,
     MatSortModule,
     MatStepperModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    OrderListComponent,
+    OrderDetailComponent
   ]
 })
 export class OrdersModule { } 

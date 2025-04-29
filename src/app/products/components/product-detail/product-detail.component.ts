@@ -4,6 +4,12 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { ProductService, Product } from '../../services/product.service';
 import { CartService } from '../../../cart/services/cart.service';
 import { AuthService } from '../../../auth/services/auth.service';
+import { ReactiveFormsModule, FormControl } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-detail',
@@ -28,13 +34,13 @@ import { AuthService } from '../../../auth/services/auth.service';
         <div class="actions">
           <mat-form-field appearance="outline" *ngIf="authService.hasRole('customer')">
             <mat-label>Adet</mat-label>
-            <input matInput type="number" [(ngModel)]="quantity" min="1" max="10">
+            <input matInput type="number" [formControl]="quantityControl" min="1" max="10">
           </mat-form-field>
 
           <button mat-raised-button color="primary" 
                   *ngIf="authService.hasRole('customer')"
                   (click)="addToCart()"
-                  [disabled]="quantity < 1">
+                  [disabled]="(quantityControl.value ?? 0) < 1">
             <mat-icon>add_shopping_cart</mat-icon>
             Sepete Ekle
           </button>
@@ -89,11 +95,20 @@ import { AuthService } from '../../../auth/services/auth.service';
     mat-form-field {
       width: 100px;
     }
-  `]
+  `],
+  standalone: true,
+  imports: [
+    CommonModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule
+  ]
 })
 export class ProductDetailComponent implements OnInit {
   product: Product | null = null;
-  quantity: number = 1;
+  quantityControl = new FormControl(1);
 
   constructor(
     private route: ActivatedRoute,
@@ -113,10 +128,11 @@ export class ProductDetailComponent implements OnInit {
   }
 
   addToCart(): void {
-    if (this.product && this.quantity > 0) {
+    const quantity = this.quantityControl.value ?? 0;
+    if (this.product && quantity > 0) {
       this.cartService.addToCart({
         productId: this.product.id,
-        quantity: this.quantity
+        quantity: quantity
       }).subscribe(() => {
         this.snackBar.open('Ürün sepete eklendi!', 'Kapat', {
           duration: 3000

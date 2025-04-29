@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { AdminService } from '../../services/admin.service';
 import { ChartConfiguration } from 'chart.js';
+import { BaseChartDirective } from 'ng2-charts';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 interface DashboardStats {
   totalUsers: number;
@@ -116,7 +121,15 @@ interface DashboardStats {
     mat-tab-group {
       margin-top: 24px;
     }
-  `]
+  `],
+  standalone: true,
+  imports: [
+    CommonModule,
+    BaseChartDirective,
+    MatCardModule,
+    MatTabsModule,
+    RouterModule
+  ]
 })
 export class AdminDashboardComponent implements OnInit {
   stats: DashboardStats | null = null;

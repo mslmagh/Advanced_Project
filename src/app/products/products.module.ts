@@ -13,16 +13,15 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    ProductListComponent,
-    ProductDetailComponent
-  ],
+  declarations: [],
   imports: [
     SharedModule,
     MatGridListModule,
     MatSelectModule,
     MatPaginatorModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    ProductListComponent,
+    ProductDetailComponent
   ]
 })
 export class ProductsModule { } 

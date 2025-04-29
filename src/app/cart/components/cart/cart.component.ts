@@ -1,18 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, FormsModule, FormControl, ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CartService, Cart, CartItem } from '../../services/cart.service';
+import { MatTableModule } from '@angular/material/table';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-cart',
   template: `
     <mat-stepper linear #stepper>
       <!-- Sepet İçeriği -->
-      <mat-step [completed]="cart?.items.length > 0">
+      <mat-step [completed]="cart.items.length > 0">
         <ng-template matStepLabel>Sepet</ng-template>
         
-        <div class="cart-content" *ngIf="cart?.items.length; else emptyCart">
+        <div class="cart-content" *ngIf="cart.items.length; else emptyCart">
           <table mat-table [dataSource]="cart.items">
             <ng-container matColumnDef="image">
               <th mat-header-cell *matHeaderCellDef>Ürün</th>
@@ -37,8 +44,8 @@ import { CartService, Cart, CartItem } from '../../services/cart.service';
               <th mat-header-cell *matHeaderCellDef>Adet</th>
               <td mat-cell *matCellDef="let item">
                 <mat-form-field appearance="outline">
-                  <input matInput type="number" [ngModel]="item.quantity"
-                         (ngModelChange)="updateQuantity(item, $event)"
+                  <input matInput type="number" [formControl]="getQuantityControl(item)"
+                         (change)="updateQuantity(item, $event)"
                          min="1" max="10">
                 </mat-form-field>
               </td>
@@ -202,13 +209,26 @@ import { CartService, Cart, CartItem } from '../../services/cart.service';
       gap: 16px;
       margin-top: 20px;
     }
-  `]
+  `],
+  standalone: true,
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatStepperModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule
+  ]
 })
 export class CartComponent implements OnInit {
-  cart: Cart | null = null;
+  cart: Cart = { items: [], total: 0 };
   displayedColumns = ['image', 'name', 'price', 'quantity', 'total', 'actions'];
   deliveryForm: FormGroup;
   paymentForm: FormGroup;
+  quantityControls: { [key: string]: FormControl } = {};
 
   constructor(
     private cartService: CartService,
@@ -240,7 +260,19 @@ export class CartComponent implements OnInit {
     });
   }
 
-  updateQuantity(item: CartItem, quantity: number): void {
+  getQuantityControl(item: CartItem): FormControl {
+    if (!this.quantityControls[item.id]) {
+      this.quantityControls[item.id] = new FormControl(item.quantity, [
+        Validators.required,
+        Validators.min(1),
+        Validators.max(10)
+      ]);
+    }
+    return this.quantityControls[item.id];
+  }
+
+  updateQuantity(item: CartItem, event: Event): void {
+    const quantity = Number((event.target as HTMLInputElement).value);
     if (quantity >= 1 && quantity <= 10) {
       this.cartService.updateCartItem(item.id, quantity).subscribe();
     }

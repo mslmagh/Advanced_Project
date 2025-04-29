@@ -8,34 +8,27 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { NgChartsModule } from 'ng2-charts';
+import { BaseChartDirective } from 'ng2-charts';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: AdminDashboardComponent,
-    children: [
-      { path: 'users', component: UserManagementComponent },
-      { path: 'orders', component: OrderManagementComponent },
-      { path: '', redirectTo: 'users', pathMatch: 'full' }
-    ]
-  }
+  { path: '', component: AdminDashboardComponent },
+  { path: 'users', component: UserManagementComponent },
+  { path: 'orders', component: OrderManagementComponent }
 ];
 
 @NgModule({
-  declarations: [
-    AdminDashboardComponent,
-    UserManagementComponent,
-    OrderManagementComponent
-  ],
+  declarations: [],
   imports: [
     SharedModule,
+    RouterModule.forChild(routes),
     MatTabsModule,
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
-    NgChartsModule,
-    RouterModule.forChild(routes)
+    BaseChartDirective,
+    AdminDashboardComponent,
+    UserManagementComponent,
+    OrderManagementComponent
   ]
 })
 export class AdminModule { } 
