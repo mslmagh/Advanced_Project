@@ -1,5 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { STATIC_PAGES_ROUTES } from './modules/static-pages/static-pages.routes';
+import { AccountComponent } from './modules/account/components/account/account.component';
+import { FavoritesComponent } from './modules/favorites/components/favorites/favorites.component';
+import { CartComponent } from './modules/cart/components/cart/cart.component';
 
 export const routes: Routes = [
   { 
@@ -50,6 +54,19 @@ export const routes: Routes = [
     path: 'favorites',
     loadChildren: () => import('./features/favorites/favorites.routes').then(m => m.FAVORITES_ROUTES)
   },
+  {
+    path: 'hesabim',
+    component: AccountComponent
+  },
+  {
+    path: 'favorilerim',
+    component: FavoritesComponent
+  },
+  {
+    path: 'sepetim',
+    component: CartComponent
+  },
+  ...STATIC_PAGES_ROUTES,
   { 
     path: '**', 
     redirectTo: '' 
