@@ -1,0 +1,51 @@
+<div class="home-container">
+  <div class="sections-nav">
+    @for (section of sections; track section.type) {
+      <button 
+        class="section-btn"
+        [class.active]="section.type === 'most-added'"
+      >
+        {{ section.title }}
+      </button>
+    }
+  </div>
+
+  <div class="products-grid">
+    @for (product of featuredProducts; track product.id) {
+      <div class="product-card">
+        <div class="product-image">
+          <img [src]="product.image" [alt]="product.name">
+          @if (product.discount) {
+            <span class="discount-badge">%{{ product.discount }}</span>
+          }
+          <button class="favorite-btn">
+            <i class="heart-icon"></i>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{ product.name }}</h3>
+          <div class="price-container">
+            <span class="current-price">{{ product.price | currency:'TRY':'symbol-narrow':'1.2-2' }}</span>
+            @if (product.originalPrice) {
+              <span class="original-price">{{ product.originalPrice | currency:'TRY':'symbol-narrow':'1.2-2' }}</span>
+            }
+          </div>
+          <div class="rating">
+            <div class="stars">
+              @for (star of [1,2,3,4,5]; track star) {
+                <i class="star-icon" [class.filled]="star <= product.rating"></i>
+              }
+            </div>
+            <span class="rating-count">({{ product.ratingCount }})</span>
+          </div>
+          @if (product.discount) {
+            <div class="shipping-info">
+              <i class="shipping-icon"></i>
+              <span>Kargo Bedava</span>
+            </div>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</div>
