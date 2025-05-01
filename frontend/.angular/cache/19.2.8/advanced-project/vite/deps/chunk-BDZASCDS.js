@@ -10,7 +10,11 @@ import {
   coerceElement,
   coerceNumberProperty
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
 } from "./chunk-HWXYGQRU.js";
+========
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YMYJW57V.js
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YMYJW57V.js
@@ -3138,6 +3142,12 @@ var MatCommonModule = class _MatCommonModule {
 
 export {
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
+========
+  normalizePassiveListenerOptions,
+  _getFocusedElementPierceShadowDom,
+  _getEventTarget,
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YMYJW57V.js
 ========
   normalizePassiveListenerOptions,
   _getFocusedElementPierceShadowDom,
@@ -3170,7 +3180,11 @@ export {
   MatCommonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BDZASCDS.js
 //# sourceMappingURL=chunk-BDZASCDS.js.map
+========
+//# sourceMappingURL=chunk-YMYJW57V.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YMYJW57V.js
 ========
 //# sourceMappingURL=chunk-YMYJW57V.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YMYJW57V.js

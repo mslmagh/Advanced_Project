@@ -4,6 +4,10 @@ import {
   ScrollingModule,
   ViewportRuler
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+>>>>>>> Stashed changes
 } from "./chunk-64KQ3B3V.js";
 ========
 } from "./chunk-YOVSCO4D.js";
@@ -20,6 +24,17 @@ import {
 ========
 } from "./chunk-T5QJD6HO.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-YOVSCO4D.js";
+import {
+  DomPortalOutlet,
+  PortalModule,
+  TemplatePortal
+} from "./chunk-T5QJD6HO.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+>>>>>>> Stashed changes
 import {
   coerceCssPixelValue
 } from "./chunk-K4SCQFZE.js";
@@ -36,6 +51,10 @@ import {
   coerceArray,
   hasModifierKey
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+>>>>>>> Stashed changes
 } from "./chunk-RFGGZI5V.js";
 import {
   _CdkPrivateStyleLoader,
@@ -47,10 +66,26 @@ import {
 ========
 } from "./chunk-W7VLRG6X.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-W7VLRG6X.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+>>>>>>> Stashed changes
 import {
   BidiModule,
   Directionality
 } from "./chunk-FGGTBHIW.js";
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+========
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-7VJJUKTJ.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+>>>>>>> Stashed changes
 import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
@@ -2922,7 +2957,17 @@ export {
   OverlayModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-4ZFGJK25.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-4ZFGJK25.js.map
 ========
 //# sourceMappingURL=chunk-ZDIQ52QF.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-ZDIQ52QF.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ZDIQ52QF.js
+>>>>>>> Stashed changes

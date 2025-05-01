@@ -2,7 +2,11 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   MatRippleModule
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
 } from "./chunk-6S7TYDME.js";
+========
+} from "./chunk-IG5G3QIH.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
 ========
 } from "./chunk-IG5G3QIH.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
@@ -11,7 +15,11 @@ import {
   RippleRenderer,
   defaultRippleAnimationConfig
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
 } from "./chunk-Z64XTEZI.js";
+========
+} from "./chunk-SGMKLVXI.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
 ========
 } from "./chunk-SGMKLVXI.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
@@ -23,6 +31,7 @@ import {
   MatCommonModule,
   _getEventTarget
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
 } from "./chunk-RFGGZI5V.js";
 import {
   _CdkPrivateStyleLoader,
@@ -31,6 +40,16 @@ import {
 import {
   Platform
 } from "./chunk-6MP6FYKQ.js";
+========
+} from "./chunk-W7VLRG6X.js";
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-7VJJUKTJ.js";
+import {
+  Platform
+} from "./chunk-Q47UYPFP.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
 ========
 } from "./chunk-W7VLRG6X.js";
 import {
@@ -1214,7 +1233,11 @@ export {
   MatButtonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
 //# sourceMappingURL=chunk-MNDKVCNT.js.map
+========
+//# sourceMappingURL=chunk-X4GEQQIG.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
 ========
 //# sourceMappingURL=chunk-X4GEQQIG.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js

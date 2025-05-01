@@ -8,21 +8,29 @@ import {
   MatCommonModule,
   ObserversModule,
   _IdGenerator
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-ZFPDX5U6.js
 } from "./chunk-BDZASCDS.js";
 ========
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FET4UIX6.js
+=======
+} from "./chunk-YMYJW57V.js";
+>>>>>>> Stashed changes
 import {
   Directionality
 } from "./chunk-X2YM2O7M.js";
 import {
   Platform
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-ZFPDX5U6.js
 } from "./chunk-HWXYGQRU.js";
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FET4UIX6.js
+=======
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>> Stashed changes
 import {
   NgTemplateOutlet
 } from "./chunk-6WJ46GLD.js";
@@ -1505,8 +1513,12 @@ export {
   MatFormField,
   MatFormFieldModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-ZFPDX5U6.js
 //# sourceMappingURL=chunk-ZFPDX5U6.js.map
 ========
 //# sourceMappingURL=chunk-FET4UIX6.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FET4UIX6.js
+=======
+//# sourceMappingURL=chunk-FET4UIX6.js.map
+>>>>>>> Stashed changes

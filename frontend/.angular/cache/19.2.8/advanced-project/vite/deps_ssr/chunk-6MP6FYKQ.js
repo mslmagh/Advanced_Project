@@ -10,6 +10,7 @@ import {
   setClassMetadata,
   ɵɵdefineInjectable
 } from "./chunk-UI7CJKIZ.js";
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-6MP6FYKQ.js
 
 // node_modules/@angular/cdk/fesm2022/element-CpqV8p-X.mjs
 function coerceNumberProperty(value, fallbackValue = 0) {
@@ -24,6 +25,8 @@ function _isNumberValue(value) {
 function coerceElement(elementOrRef) {
   return elementOrRef instanceof ElementRef ? elementOrRef.nativeElement : elementOrRef;
 }
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-Q47UYPFP.js
 
 // node_modules/@angular/cdk/fesm2022/platform-Do3uqmxu.mjs
 var hasV8BreakIterator;
@@ -93,7 +96,11 @@ export {
   Platform
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-6MP6FYKQ.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-6MP6FYKQ.js
 //# sourceMappingURL=chunk-6MP6FYKQ.js.map
+========
+//# sourceMappingURL=chunk-Q47UYPFP.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-Q47UYPFP.js
 ========
 //# sourceMappingURL=chunk-Q47UYPFP.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-Q47UYPFP.js

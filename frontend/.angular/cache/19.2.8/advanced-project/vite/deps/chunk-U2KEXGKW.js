@@ -1,7 +1,11 @@
 import {
   MatRippleModule
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
 } from "./chunk-ID3UIMQB.js";
+========
+} from "./chunk-GYTTHCIB.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
 ========
 } from "./chunk-GYTTHCIB.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
@@ -10,7 +14,11 @@ import {
   RippleRenderer,
   defaultRippleAnimationConfig
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
 } from "./chunk-FR4HLEPF.js";
+========
+} from "./chunk-O2AI7BY2.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
 ========
 } from "./chunk-O2AI7BY2.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
@@ -22,7 +30,11 @@ import {
   MatCommonModule,
   _getEventTarget
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
 } from "./chunk-BDZASCDS.js";
+========
+} from "./chunk-YMYJW57V.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
 ========
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
@@ -33,7 +45,11 @@ import {
 import {
   Platform
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
 } from "./chunk-HWXYGQRU.js";
+========
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
@@ -1210,7 +1226,11 @@ export {
   MatButtonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
 //# sourceMappingURL=chunk-U2KEXGKW.js.map
+========
+//# sourceMappingURL=chunk-V3RBCWKR.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
 ========
 //# sourceMappingURL=chunk-V3RBCWKR.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js

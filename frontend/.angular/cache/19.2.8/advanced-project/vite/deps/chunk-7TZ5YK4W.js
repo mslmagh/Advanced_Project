@@ -91,8 +91,12 @@ export {
   coerceElement,
   Platform
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-HWXYGQRU.js
 //# sourceMappingURL=chunk-HWXYGQRU.js.map
 ========
 //# sourceMappingURL=chunk-7TZ5YK4W.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-7TZ5YK4W.js
+=======
+//# sourceMappingURL=chunk-7TZ5YK4W.js.map
+>>>>>>> Stashed changes

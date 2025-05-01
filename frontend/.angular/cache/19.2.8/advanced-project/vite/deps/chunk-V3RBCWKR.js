@@ -1,19 +1,39 @@
 import {
   MatRippleModule
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+>>>>>>> Stashed changes
 } from "./chunk-ID3UIMQB.js";
 ========
 } from "./chunk-GYTTHCIB.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-GYTTHCIB.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+>>>>>>> Stashed changes
 import {
   MAT_RIPPLE_GLOBAL_OPTIONS,
   RippleRenderer,
   defaultRippleAnimationConfig
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+>>>>>>> Stashed changes
 } from "./chunk-FR4HLEPF.js";
 ========
 } from "./chunk-O2AI7BY2.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-O2AI7BY2.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+>>>>>>> Stashed changes
 import {
   _StructuralStylesLoader
 } from "./chunk-COOQCVQY.js";
@@ -22,10 +42,20 @@ import {
   MatCommonModule,
   _getEventTarget
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+>>>>>>> Stashed changes
 } from "./chunk-BDZASCDS.js";
 ========
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-YMYJW57V.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+>>>>>>> Stashed changes
 import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
@@ -33,10 +63,20 @@ import {
 import {
   Platform
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+>>>>>>> Stashed changes
 } from "./chunk-HWXYGQRU.js";
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-BJJC6FNP.js";
@@ -1210,7 +1250,17 @@ export {
   MatButtonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-U2KEXGKW.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-U2KEXGKW.js.map
 ========
 //# sourceMappingURL=chunk-V3RBCWKR.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-V3RBCWKR.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-V3RBCWKR.js
+>>>>>>> Stashed changes

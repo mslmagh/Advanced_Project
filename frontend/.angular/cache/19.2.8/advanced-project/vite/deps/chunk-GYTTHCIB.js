@@ -1,5 +1,6 @@
 import {
   MatRipple
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-ID3UIMQB.js
 } from "./chunk-FR4HLEPF.js";
 import {
@@ -11,6 +12,12 @@ import {
   MatCommonModule
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-GYTTHCIB.js
+=======
+} from "./chunk-O2AI7BY2.js";
+import {
+  MatCommonModule
+} from "./chunk-YMYJW57V.js";
+>>>>>>> Stashed changes
 import {
   NgModule,
   setClassMetadata,
@@ -45,8 +52,12 @@ var MatRippleModule = class _MatRippleModule {
 export {
   MatRippleModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-ID3UIMQB.js
 //# sourceMappingURL=chunk-ID3UIMQB.js.map
 ========
 //# sourceMappingURL=chunk-GYTTHCIB.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-GYTTHCIB.js
+=======
+//# sourceMappingURL=chunk-GYTTHCIB.js.map
+>>>>>>> Stashed changes

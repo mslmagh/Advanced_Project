@@ -2,6 +2,7 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   DomSanitizer
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-EQW5A2RX.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-EQW5A2RX.js
 } from "./chunk-NQWURBPC.js";
 import {
   MatCommonModule
@@ -12,6 +13,15 @@ import {
 import {
 ========
 } from "./chunk-43RU2IOY.js";
+========
+} from "./chunk-43RU2IOY.js";
+import {
+  MatCommonModule
+} from "./chunk-W7VLRG6X.js";
+import {
+  HttpClient
+} from "./chunk-BUDWIEIS.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-LVQJJ34O.js
 import {
   MatCommonModule
 } from "./chunk-W7VLRG6X.js";
@@ -987,7 +997,11 @@ export {
   MatIconModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-EQW5A2RX.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-EQW5A2RX.js
 //# sourceMappingURL=chunk-EQW5A2RX.js.map
+========
+//# sourceMappingURL=chunk-LVQJJ34O.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-LVQJJ34O.js
 ========
 //# sourceMappingURL=chunk-LVQJJ34O.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-LVQJJ34O.js

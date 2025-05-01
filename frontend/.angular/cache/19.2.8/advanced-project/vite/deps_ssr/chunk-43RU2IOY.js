@@ -3,6 +3,7 @@ import {
   EVENT_MANAGER_PLUGINS,
   EventManagerPlugin
 } from "./chunk-VLDWYCXZ.js";
+<<<<<<< Updated upstream
 import {
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-NQWURBPC.js
 ========
@@ -12,10 +13,18 @@ import {
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-43RU2IOY.js
   getDOM
 } from "./chunk-HQKTRAST.js";
+=======
+>>>>>>> Stashed changes
 import {
   withHttpTransferCache
-} from "./chunk-G7TVHKQS.js";
+} from "./chunk-BUDWIEIS.js";
 import {
+<<<<<<< Updated upstream
+=======
+  getDOM
+} from "./chunk-HQKTRAST.js";
+import {
+>>>>>>> Stashed changes
   DOCUMENT
 } from "./chunk-TK5VCKB2.js";
 import {
@@ -827,8 +836,12 @@ export {
    * License: MIT
    *)
 */
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-NQWURBPC.js
 //# sourceMappingURL=chunk-NQWURBPC.js.map
 ========
 //# sourceMappingURL=chunk-43RU2IOY.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-43RU2IOY.js
+=======
+//# sourceMappingURL=chunk-43RU2IOY.js.map
+>>>>>>> Stashed changes

@@ -2,10 +2,20 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   Title
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+>>>>>>> Stashed changes
 } from "./chunk-NQWURBPC.js";
 ========
 } from "./chunk-43RU2IOY.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-43RU2IOY.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
+>>>>>>> Stashed changes
 import {
   HashLocationStrategy,
   LOCATION_INITIALIZED,
@@ -5987,7 +5997,17 @@ export {
    *)
 */
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-HLINGFQG.js.map
 ========
 //# sourceMappingURL=chunk-SNQC3LXW.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-SNQC3LXW.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
+>>>>>>> Stashed changes

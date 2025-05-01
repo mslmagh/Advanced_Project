@@ -19,16 +19,22 @@ import {
 import {
   BidiModule,
   Directionality
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-64KQ3B3V.js
 } from "./chunk-KUDK3IEG.js";
 ========
   BidiModule,
   Directionality
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-YOVSCO4D.js
 } from "./chunk-FGGTBHIW.js";
 import {
   Platform,
   coerceElement,
   coerceNumberProperty
 } from "./chunk-Q47UYPFP.js";
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-64KQ3B3V.js
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-YOVSCO4D.js
+========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-YOVSCO4D.js
 import {
   DOCUMENT
@@ -1570,7 +1576,11 @@ export {
   ScrollingModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-64KQ3B3V.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-64KQ3B3V.js
 //# sourceMappingURL=chunk-64KQ3B3V.js.map
+========
+//# sourceMappingURL=chunk-YOVSCO4D.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-YOVSCO4D.js
 ========
 //# sourceMappingURL=chunk-YOVSCO4D.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-YOVSCO4D.js

@@ -9,6 +9,7 @@ import {
   MatCommonModule,
   ObserversModule,
   _IdGenerator
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-PNKG5GGJ.js
 } from "./chunk-RFGGZI5V.js";
 import {
@@ -17,6 +18,15 @@ import {
 ========
 } from "./chunk-W7VLRG6X.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-NRIVCJWK.js
+=======
+} from "./chunk-W7VLRG6X.js";
+import {
+  Directionality
+} from "./chunk-FGGTBHIW.js";
+import {
+  Platform
+} from "./chunk-Q47UYPFP.js";
+>>>>>>> Stashed changes
 import {
   Directionality
 } from "./chunk-FGGTBHIW.js";
@@ -1507,8 +1517,12 @@ export {
   MatFormField,
   MatFormFieldModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-PNKG5GGJ.js
 //# sourceMappingURL=chunk-PNKG5GGJ.js.map
 ========
 //# sourceMappingURL=chunk-NRIVCJWK.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-NRIVCJWK.js
+=======
+//# sourceMappingURL=chunk-NRIVCJWK.js.map
+>>>>>>> Stashed changes

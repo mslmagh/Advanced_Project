@@ -6,7 +6,11 @@ import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
 } from "./chunk-WUZ3QNCR.js";
+========
+} from "./chunk-7VJJUKTJ.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
 ========
 } from "./chunk-7VJJUKTJ.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
@@ -15,10 +19,14 @@ import {
   coerceElement,
   coerceNumberProperty
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
 } from "./chunk-6MP6FYKQ.js";
 import {
   BidiModule
 } from "./chunk-KUDK3IEG.js";
+========
+} from "./chunk-Q47UYPFP.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
 ========
 } from "./chunk-Q47UYPFP.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
@@ -3187,7 +3195,11 @@ export {
   MatCommonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
 //# sourceMappingURL=chunk-RFGGZI5V.js.map
+========
+//# sourceMappingURL=chunk-W7VLRG6X.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
 ========
 //# sourceMappingURL=chunk-W7VLRG6X.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js

@@ -2,20 +2,28 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ULUGR2IC.js
 } from "./chunk-WUZ3QNCR.js";
 ========
 } from "./chunk-7VJJUKTJ.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-7ODYXXCS.js
+=======
+} from "./chunk-7VJJUKTJ.js";
+>>>>>>> Stashed changes
 import {
   Platform,
   coerceElement,
   coerceNumberProperty
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ULUGR2IC.js
 } from "./chunk-6MP6FYKQ.js";
 ========
 } from "./chunk-Q47UYPFP.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-7ODYXXCS.js
+=======
+} from "./chunk-Q47UYPFP.js";
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-TK5VCKB2.js";
@@ -523,8 +531,12 @@ export {
   CdkTextareaAutosize,
   TextFieldModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-ULUGR2IC.js
 //# sourceMappingURL=chunk-ULUGR2IC.js.map
 ========
 //# sourceMappingURL=chunk-7ODYXXCS.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-7ODYXXCS.js
+=======
+//# sourceMappingURL=chunk-7ODYXXCS.js.map
+>>>>>>> Stashed changes

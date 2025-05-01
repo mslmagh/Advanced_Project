@@ -3,6 +3,7 @@ import {
   PortalModule,
   TemplatePortal
 } from "./chunk-4MFHAJ4W.js";
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YI6DN2C6.js
 import {
   ScrollDispatcher,
@@ -14,10 +15,13 @@ import {
 } from "./chunk-JPJU4FYC.js";
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-MF355LL5.js
+=======
+>>>>>>> Stashed changes
 import {
   coerceCssPixelValue
 } from "./chunk-SVVIGFXE.js";
 import {
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YI6DN2C6.js
   supportsScrollBehavior
 } from "./chunk-IJ3KGSPX.js";
@@ -25,18 +29,35 @@ import {
   _isTestEnvironment
 } from "./chunk-JPJU4FYC.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-MF355LL5.js
+=======
+  _isTestEnvironment
+} from "./chunk-JPJU4FYC.js";
+>>>>>>> Stashed changes
 import {
   ESCAPE,
   _IdGenerator,
   _getEventTarget,
   coerceArray,
   hasModifierKey
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YI6DN2C6.js
 } from "./chunk-BDZASCDS.js";
+=======
+} from "./chunk-YMYJW57V.js";
+import {
+  ScrollDispatcher,
+  ScrollingModule,
+  ViewportRuler
+} from "./chunk-GM3DTQJI.js";
+import {
+  supportsScrollBehavior
+} from "./chunk-IJ3KGSPX.js";
+>>>>>>> Stashed changes
 import {
   BidiModule,
   Directionality
 } from "./chunk-X2YM2O7M.js";
+<<<<<<< Updated upstream
 ========
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-MF355LL5.js
@@ -56,6 +77,8 @@ import {
   BidiModule,
   Directionality
 } from "./chunk-X2YM2O7M.js";
+=======
+>>>>>>> Stashed changes
 import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
@@ -63,7 +86,10 @@ import {
 import {
   Platform
 } from "./chunk-7TZ5YK4W.js";
+<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-MF355LL5.js
+=======
+>>>>>>> Stashed changes
 import {
   Location
 } from "./chunk-6WJ46GLD.js";
@@ -2921,8 +2947,12 @@ export {
   CdkConnectedOverlay,
   OverlayModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-YI6DN2C6.js
 //# sourceMappingURL=chunk-YI6DN2C6.js.map
 ========
 //# sourceMappingURL=chunk-MF355LL5.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-MF355LL5.js
+=======
+//# sourceMappingURL=chunk-MF355LL5.js.map
+>>>>>>> Stashed changes

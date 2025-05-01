@@ -1,11 +1,14 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
   ROUTES,
   Router,
   loadChildren
 } from "./chunk-HLINGFQG.js";
 import {
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
   INITIAL_CONFIG,
@@ -14,14 +17,20 @@ import {
   renderApplication,
   renderModule
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
 } from "./chunk-MQ37DYVE.js";
 ========
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
 } from "./chunk-VFEQQD3D.js";
 import {
   ROUTES,
   Router,
   loadChildren
 } from "./chunk-SNQC3LXW.js";
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
+========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
 import {
   APP_BASE_HREF,
@@ -11994,7 +12003,11 @@ export {
   createRequestHandler
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-67MOA337.js
 //# sourceMappingURL=chunk-67MOA337.js.map
+========
+//# sourceMappingURL=chunk-HWIMRZGB.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js
 ========
 //# sourceMappingURL=chunk-HWIMRZGB.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HWIMRZGB.js

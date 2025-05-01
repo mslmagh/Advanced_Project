@@ -4,10 +4,20 @@ import {
   isFakeTouchstartFromScreenReader,
   normalizePassiveListenerOptions
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+>>>>>>> Stashed changes
 } from "./chunk-BDZASCDS.js";
 ========
 } from "./chunk-YMYJW57V.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-YMYJW57V.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+>>>>>>> Stashed changes
 import {
   _CdkPrivateStyleLoader
 } from "./chunk-KJR3SM7H.js";
@@ -15,10 +25,20 @@ import {
   Platform,
   coerceElement
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+>>>>>>> Stashed changes
 } from "./chunk-HWXYGQRU.js";
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+>>>>>>> Stashed changes
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -623,7 +643,17 @@ export {
   MatRipple
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-FR4HLEPF.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-FR4HLEPF.js.map
 ========
 //# sourceMappingURL=chunk-O2AI7BY2.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-O2AI7BY2.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-O2AI7BY2.js
+>>>>>>> Stashed changes

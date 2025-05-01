@@ -6,11 +6,15 @@ import {
   Platform,
   coerceElement,
   coerceNumberProperty
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-QU766D4L.js
 } from "./chunk-HWXYGQRU.js";
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-DAU4P7N5.js
+=======
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-BJJC6FNP.js";
@@ -512,8 +516,12 @@ export {
   CdkTextareaAutosize,
   TextFieldModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-QU766D4L.js
 //# sourceMappingURL=chunk-QU766D4L.js.map
 ========
 //# sourceMappingURL=chunk-DAU4P7N5.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-DAU4P7N5.js
+=======
+//# sourceMappingURL=chunk-DAU4P7N5.js.map
+>>>>>>> Stashed changes

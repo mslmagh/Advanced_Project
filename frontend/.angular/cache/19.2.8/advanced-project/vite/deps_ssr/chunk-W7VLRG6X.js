@@ -6,15 +6,29 @@ import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+>>>>>>> Stashed changes
 } from "./chunk-WUZ3QNCR.js";
 ========
 } from "./chunk-7VJJUKTJ.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-7VJJUKTJ.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+>>>>>>> Stashed changes
 import {
   Platform,
   coerceElement,
   coerceNumberProperty
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+>>>>>>> Stashed changes
 } from "./chunk-6MP6FYKQ.js";
 import {
   BidiModule
@@ -22,6 +36,12 @@ import {
 ========
 } from "./chunk-Q47UYPFP.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-Q47UYPFP.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-TK5VCKB2.js";
@@ -3187,7 +3207,17 @@ export {
   MatCommonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RFGGZI5V.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-RFGGZI5V.js.map
 ========
 //# sourceMappingURL=chunk-W7VLRG6X.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-W7VLRG6X.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-W7VLRG6X.js
+>>>>>>> Stashed changes

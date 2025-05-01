@@ -4,6 +4,7 @@ import {
   isFakeMousedownFromScreenReader,
   isFakeTouchstartFromScreenReader,
   normalizePassiveListenerOptions
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-Z64XTEZI.js
 } from "./chunk-RFGGZI5V.js";
 import {
@@ -23,6 +24,16 @@ import {
   coerceElement
 } from "./chunk-Q47UYPFP.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SGMKLVXI.js
+=======
+} from "./chunk-W7VLRG6X.js";
+import {
+  _CdkPrivateStyleLoader
+} from "./chunk-7VJJUKTJ.js";
+import {
+  Platform,
+  coerceElement
+} from "./chunk-Q47UYPFP.js";
+>>>>>>> Stashed changes
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -626,8 +637,12 @@ export {
   MAT_RIPPLE_GLOBAL_OPTIONS,
   MatRipple
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-Z64XTEZI.js
 //# sourceMappingURL=chunk-Z64XTEZI.js.map
 ========
 //# sourceMappingURL=chunk-SGMKLVXI.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SGMKLVXI.js
+=======
+//# sourceMappingURL=chunk-SGMKLVXI.js.map
+>>>>>>> Stashed changes

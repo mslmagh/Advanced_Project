@@ -2,7 +2,11 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   Title
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
 } from "./chunk-NQWURBPC.js";
+========
+} from "./chunk-43RU2IOY.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
 ========
 } from "./chunk-43RU2IOY.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
@@ -5987,7 +5991,11 @@ export {
    *)
 */
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-HLINGFQG.js
 //# sourceMappingURL=chunk-HLINGFQG.js.map
+========
+//# sourceMappingURL=chunk-SNQC3LXW.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js
 ========
 //# sourceMappingURL=chunk-SNQC3LXW.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-SNQC3LXW.js

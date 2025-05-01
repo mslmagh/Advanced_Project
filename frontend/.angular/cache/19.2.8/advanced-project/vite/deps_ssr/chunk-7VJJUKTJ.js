@@ -23,6 +23,7 @@ function _bindEventWithOptions(renderer, target, eventName, callback, options) {
     target.removeEventListener(eventName, callback, options);
   };
 }
+<<<<<<< Updated upstream
 
 // node_modules/@angular/cdk/fesm2022/backwards-compatibility-DYuVCOXM.mjs
 function _bindEventWithOptions(renderer, target, eventName, callback, options) {
@@ -36,6 +37,8 @@ function _bindEventWithOptions(renderer, target, eventName, callback, options) {
     target.removeEventListener(eventName, callback, options);
   };
 }
+=======
+>>>>>>> Stashed changes
 
 // node_modules/@angular/cdk/fesm2022/style-loader-WcmCyO2o.mjs
 var appsWithLoaders = /* @__PURE__ */ new WeakMap();
@@ -90,8 +93,12 @@ export {
   _bindEventWithOptions,
   _CdkPrivateStyleLoader
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-WUZ3QNCR.js
 //# sourceMappingURL=chunk-WUZ3QNCR.js.map
 ========
 //# sourceMappingURL=chunk-7VJJUKTJ.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-7VJJUKTJ.js
+=======
+//# sourceMappingURL=chunk-7VJJUKTJ.js.map
+>>>>>>> Stashed changes

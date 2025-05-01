@@ -1,6 +1,7 @@
 import {
   DomSanitizer
 } from "./chunk-N2VZOQIM.js";
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BKDND2MV.js
 import {
   HttpClient
@@ -11,11 +12,18 @@ import {
 ========
 import {
   MatCommonModule
+=======
+import {
+  MatCommonModule
+>>>>>>> Stashed changes
 } from "./chunk-YMYJW57V.js";
 import {
   HttpClient
 } from "./chunk-V7T2HRTP.js";
+<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-AERSJLXK.js
+=======
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-BJJC6FNP.js";
@@ -982,8 +990,12 @@ export {
   MatIcon,
   MatIconModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-BKDND2MV.js
 //# sourceMappingURL=chunk-BKDND2MV.js.map
 ========
 //# sourceMappingURL=chunk-AERSJLXK.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-AERSJLXK.js
+=======
+//# sourceMappingURL=chunk-AERSJLXK.js.map
+>>>>>>> Stashed changes

@@ -18,9 +18,18 @@ import {
   getDOM,
   setRootDomAdapter
 } from "./chunk-HQKTRAST.js";
+<<<<<<< Updated upstream
 import {
   HTTP_ROOT_INTERCEPTOR_FNS
 } from "./chunk-G7TVHKQS.js";
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MQ37DYVE.js
+import {
+  HTTP_ROOT_INTERCEPTOR_FNS
+} from "./chunk-G7TVHKQS.js";
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-VFEQQD3D.js
+>>>>>>> Stashed changes
 import {
   DOCUMENT,
   PLATFORM_SERVER_ID,
@@ -16915,7 +16924,17 @@ export {
    *)
 */
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MQ37DYVE.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MQ37DYVE.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-MQ37DYVE.js.map
 ========
 //# sourceMappingURL=chunk-VFEQQD3D.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-VFEQQD3D.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-VFEQQD3D.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-VFEQQD3D.js
+>>>>>>> Stashed changes

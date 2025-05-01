@@ -2,19 +2,39 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   MatRippleModule
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+>>>>>>> Stashed changes
 } from "./chunk-6S7TYDME.js";
 ========
 } from "./chunk-IG5G3QIH.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-IG5G3QIH.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+>>>>>>> Stashed changes
 import {
   MAT_RIPPLE_GLOBAL_OPTIONS,
   RippleRenderer,
   defaultRippleAnimationConfig
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+>>>>>>> Stashed changes
 } from "./chunk-Z64XTEZI.js";
 ========
 } from "./chunk-SGMKLVXI.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-SGMKLVXI.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+>>>>>>> Stashed changes
 import {
   _StructuralStylesLoader
 } from "./chunk-LC4O5QI5.js";
@@ -23,6 +43,10 @@ import {
   MatCommonModule,
   _getEventTarget
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+>>>>>>> Stashed changes
 } from "./chunk-RFGGZI5V.js";
 import {
   _CdkPrivateStyleLoader,
@@ -41,6 +65,19 @@ import {
   Platform
 } from "./chunk-Q47UYPFP.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+<<<<<<< Updated upstream
+=======
+========
+} from "./chunk-W7VLRG6X.js";
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-7VJJUKTJ.js";
+import {
+  Platform
+} from "./chunk-Q47UYPFP.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-TK5VCKB2.js";
@@ -1214,7 +1251,17 @@ export {
   MatButtonModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-MNDKVCNT.js
+>>>>>>> Stashed changes
 //# sourceMappingURL=chunk-MNDKVCNT.js.map
 ========
 //# sourceMappingURL=chunk-X4GEQQIG.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+<<<<<<< Updated upstream
+=======
+========
+//# sourceMappingURL=chunk-X4GEQQIG.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-X4GEQQIG.js
+>>>>>>> Stashed changes

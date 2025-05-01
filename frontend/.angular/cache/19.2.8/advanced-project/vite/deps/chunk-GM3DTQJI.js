@@ -17,11 +17,15 @@ import {
   Platform,
   coerceElement,
   coerceNumberProperty
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-L7NWMZ7K.js
 } from "./chunk-HWXYGQRU.js";
 ========
 } from "./chunk-7TZ5YK4W.js";
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-GM3DTQJI.js
+=======
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>> Stashed changes
 import {
   DOCUMENT
 } from "./chunk-BJJC6FNP.js";
@@ -1569,8 +1573,12 @@ export {
   CdkScrollableModule,
   ScrollingModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-L7NWMZ7K.js
 //# sourceMappingURL=chunk-L7NWMZ7K.js.map
 ========
 //# sourceMappingURL=chunk-GM3DTQJI.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-GM3DTQJI.js
+=======
+//# sourceMappingURL=chunk-GM3DTQJI.js.map
+>>>>>>> Stashed changes
