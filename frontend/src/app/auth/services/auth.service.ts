@@ -1,133 +1,135 @@
-import { Injectable, PLATFORM_ID, Inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, Observable, tap } from 'rxjs';
 import { Router } from '@angular/router';
 import { environment } from '../../../environments/environment';
-import { JwtHelperService } from '@auth0/angular-jwt';
 import { isPlatformBrowser } from '@angular/common';
 
 export interface User {
-  id: string;
-  fullName: string;
+  id: number;
   email: string;
-  role: 'admin' | 'seller' | 'customer';
+  firstName: string;
+  lastName: string;
+  roles: string[];
+}
+
+export interface RegisterRequest {
+  email: string;
+  password: string;
+  firstName: string;
+  lastName: string;
+}
+
+export interface LoginRequest {
+  email: string;
+  password: string;
 }
 
 export interface AuthResponse {
-  token: string;
-  user: User;
+  message: string;
+  user?: User;
+  token?: string;
 }
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  private currentUserSubject: BehaviorSubject<User | null>;
-  public currentUser: Observable<User | null>;
-  private jwtHelper: JwtHelperService = new JwtHelperService();
+  private currentUserSubject = new BehaviorSubject<User | null>(null);
+  currentUser$ = this.currentUserSubject.asObservable();
+  private isBrowser: boolean;
+
+  private httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json'
+    }),
+    withCredentials: true
+  };
 
   constructor(
     private http: HttpClient,
     private router: Router,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) platformId: Object
   ) {
-    this.currentUserSubject = new BehaviorSubject<User | null>(null);
-    this.currentUser = this.currentUserSubject.asObservable();
-    this.initializeUser();
-  }
-
-  private initializeUser(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      try {
-        const storedUser = localStorage.getItem('currentUser');
-        if (storedUser) {
-          this.currentUserSubject.next(JSON.parse(storedUser));
-        }
-      } catch (e) {
-        console.error('Error initializing user:', e);
+    this.isBrowser = isPlatformBrowser(platformId);
+    if (this.isBrowser) {
+      const token = this.getToken();
+      if (token) {
+        this.loadUserFromToken(token);
       }
     }
   }
 
-  public get currentUserValue(): User | null {
-    return this.currentUserSubject.value;
+  register(userData: RegisterRequest): Observable<AuthResponse> {
+    const url = `${environment.apiUrl}/api/auth/register`;
+    console.log('Sending register request to:', url);
+    console.log('Register data:', userData);
+    
+    return this.http.post<AuthResponse>(url, userData, this.httpOptions).pipe(
+      tap({
+        next: (response) => {
+          console.log('Register success:', response);
+          if (response.user) {
+            this.currentUserSubject.next(response.user);
+          }
+        },
+        error: (error) => {
+          console.error('Register error:', error);
+          if (error.error instanceof ErrorEvent) {
+            // Client-side error
+            console.error('Client-side error:', error.error.message);
+          } else {
+            // Backend error
+            console.error(`Backend returned code ${error.status}, body was:`, error.error);
+          }
+        }
+      })
+    );
   }
 
-  login(email: string, password: string): Observable<AuthResponse> {
-    return this.http.post<AuthResponse>(`${environment.apiUrl}/auth/login`, { email, password })
+  login(credentials: LoginRequest): Observable<AuthResponse> {
+    return this.http.post<AuthResponse>(`${environment.apiUrl}/api/auth/login`, credentials, this.httpOptions)
       .pipe(
-        tap(response => {
-          if (isPlatformBrowser(this.platformId)) {
-            try {
-              localStorage.setItem('token', response.token);
-              localStorage.setItem('currentUser', JSON.stringify(response.user));
-            } catch (e) {
-              console.error('Error storing auth data:', e);
+        tap({
+          next: (response) => {
+            if (response.token && response.user) {
+              if (this.isBrowser) {
+                localStorage.setItem('token', response.token);
+              }
+              this.currentUserSubject.next(response.user);
             }
-          }
-          this.currentUserSubject.next(response.user);
-        })
-      );
-  }
-
-  register(userData: {
-    fullName: string;
-    email: string;
-    password: string;
-    role: 'customer' | 'seller';
-  }): Observable<AuthResponse> {
-    return this.http.post<AuthResponse>(`${environment.apiUrl}/auth/register`, userData)
-      .pipe(
-        tap(response => {
-          if (isPlatformBrowser(this.platformId)) {
-            try {
-              localStorage.setItem('token', response.token);
-              localStorage.setItem('currentUser', JSON.stringify(response.user));
-            } catch (e) {
-              console.error('Error storing auth data:', e);
-            }
-          }
-          this.currentUserSubject.next(response.user);
+          },
+          error: (error) => console.error('Login error:', error)
         })
       );
   }
 
   logout(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      try {
-        localStorage.removeItem('token');
-        localStorage.removeItem('currentUser');
-      } catch (e) {
-        console.error('Error clearing auth data:', e);
-      }
+    if (this.isBrowser) {
+      localStorage.removeItem('token');
     }
     this.currentUserSubject.next(null);
     this.router.navigate(['/auth/login']);
   }
 
-  isAuthenticated(): boolean {
-    if (!isPlatformBrowser(this.platformId)) return false;
-    try {
-      const token = localStorage.getItem('token');
-      return token ? !this.jwtHelper.isTokenExpired(token) : false;
-    } catch (e) {
-      console.error('Error checking authentication:', e);
-      return false;
-    }
+  private getToken(): string | null {
+    return this.isBrowser ? localStorage.getItem('token') : null;
   }
 
-  hasRole(role: string): boolean {
-    const user = this.currentUserValue;
-    return user ? user.role === role : false;
-  }
-
-  getToken(): string | null {
-    if (!isPlatformBrowser(this.platformId)) return null;
-    try {
-      return localStorage.getItem('token');
-    } catch (e) {
-      console.error('Error getting token:', e);
-      return null;
-    }
+  private loadUserFromToken(token: string): void {
+    this.http.get<User>(`${environment.apiUrl}/api/auth/me`, {
+      headers: new HttpHeaders({
+        'Authorization': `Bearer ${token}`
+      }),
+      withCredentials: true
+    }).subscribe({
+      next: (user) => this.currentUserSubject.next(user),
+      error: () => {
+        if (this.isBrowser) {
+          localStorage.removeItem('token');
+        }
+        this.currentUserSubject.next(null);
+      }
+    });
   }
 } 

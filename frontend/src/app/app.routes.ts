@@ -13,6 +13,14 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'hesabim',
+    children: [
+      { path: '', component: AccountComponent },
+      { path: 'login', component: LoginComponent },
+      { path: 'register', component: RegisterComponent }
+    ]
+  },
+  {
     path: 'kadin',
     loadChildren: () => import('./features/kadin/kadin.routes').then(m => m.KADIN_ROUTES)
   },
@@ -57,10 +65,6 @@ export const routes: Routes = [
     loadChildren: () => import('./features/favorites/favorites.routes').then(m => m.FAVORITES_ROUTES)
   },
   {
-    path: 'hesabim',
-    component: AccountComponent
-  },
-  {
     path: 'favorilerim',
     component: FavoritesComponent
   },
@@ -68,8 +72,6 @@ export const routes: Routes = [
     path: 'sepetim',
     component: CartComponent
   },
-  { path: 'auth/login', component: LoginComponent },
-  { path: 'auth/register', component: RegisterComponent },
   ...STATIC_PAGES_ROUTES,
   {
     path: '**',
