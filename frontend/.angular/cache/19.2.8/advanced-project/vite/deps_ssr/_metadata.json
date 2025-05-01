@@ -1,54 +1,18 @@
-{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
+
   "hash": "a11bdb99",
   "configHash": "495addee",
   "lockfileHash": "235400d5",
   "browserHash": "9e7988df",
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   "hash": "41fd647a",
   "configHash": "495addee",
   "lockfileHash": "ad898fc8",
   "browserHash": "0b6a21b8",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   "optimized": {
     "@angular/cdk/bidi": {
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
       "file": "@angular_cdk_bidi.js",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "fileHash": "4e9e0e93",
-=======
-      "fileHash": "4a92619c",
->>>>>>> Stashed changes
-=======
-      "fileHash": "4a92619c",
->>>>>>> Stashed changes
-=======
-      "fileHash": "4a92619c",
->>>>>>> Stashed changes
-=======
-      "fileHash": "4a92619c",
->>>>>>> Stashed changes
       "needsInterop": false
     },
     "@angular/cdk/scrolling": {
@@ -762,7 +726,11 @@
     },
     "chunk-6EVU6AGF": {
       "file": "chunk-6EVU6AGF.js"
+    "chunk-6EVU6AGF": {
+      "file": "chunk-6EVU6AGF.js"
     },
+    "chunk-E6VJECMQ": {
+      "file": "chunk-E6VJECMQ.js"
     "chunk-E6VJECMQ": {
       "file": "chunk-E6VJECMQ.js"
     },
@@ -773,8 +741,8 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     },
-    "chunk-IEKDUPL3": {
-      "file": "chunk-IEKDUPL3.js"
+    "chunk-CKROVLW3": {
+      "file": "chunk-CKROVLW3.js"
     },
     "chunk-FW4SVGDW": {
       "file": "chunk-FW4SVGDW.js"
@@ -867,10 +835,16 @@
     },
     "chunk-YXJCVAY6": {
       "file": "chunk-YXJCVAY6.js"
+    "chunk-YXJCVAY6": {
+      "file": "chunk-YXJCVAY6.js"
     },
     "chunk-HR23LVV4": {
       "file": "chunk-HR23LVV4.js"
+    "chunk-HR23LVV4": {
+      "file": "chunk-HR23LVV4.js"
     },
+    "chunk-TX47TSAR": {
+      "file": "chunk-TX47TSAR.js"
     "chunk-TX47TSAR": {
       "file": "chunk-TX47TSAR.js"
     },
@@ -890,7 +864,11 @@
     },
     "chunk-RPYWFG76": {
       "file": "chunk-RPYWFG76.js"
+    "chunk-RPYWFG76": {
+      "file": "chunk-RPYWFG76.js"
     },
+    "chunk-IEKDUPL3": {
+      "file": "chunk-IEKDUPL3.js"
     "chunk-IEKDUPL3": {
       "file": "chunk-IEKDUPL3.js"
     },
@@ -899,25 +877,44 @@
     },
     "chunk-G7TVHKQS": {
       "file": "chunk-G7TVHKQS.js"
+    "chunk-EFVFPU3E": {
+      "file": "chunk-EFVFPU3E.js"
     },
+    "chunk-G7TVHKQS": {
+      "file": "chunk-G7TVHKQS.js"
+    },
+    "chunk-GPVEEK4N": {
+      "file": "chunk-GPVEEK4N.js"
     "chunk-GPVEEK4N": {
       "file": "chunk-GPVEEK4N.js"
     },
     "chunk-Y7VOOCVQ": {
       "file": "chunk-Y7VOOCVQ.js"
+    "chunk-Y7VOOCVQ": {
+      "file": "chunk-Y7VOOCVQ.js"
     },
+    "chunk-DTJNPJXJ": {
+      "file": "chunk-DTJNPJXJ.js"
     "chunk-DTJNPJXJ": {
       "file": "chunk-DTJNPJXJ.js"
     },
     "chunk-6OFT4TA7": {
       "file": "chunk-6OFT4TA7.js"
+    "chunk-6OFT4TA7": {
+      "file": "chunk-6OFT4TA7.js"
     },
+    "chunk-MINRJWPL": {
+      "file": "chunk-MINRJWPL.js"
     "chunk-MINRJWPL": {
       "file": "chunk-MINRJWPL.js"
     },
     "chunk-RIIRWWW6": {
       "file": "chunk-RIIRWWW6.js"
+    "chunk-RIIRWWW6": {
+      "file": "chunk-RIIRWWW6.js"
     },
+    "chunk-5PBF46PW": {
+      "file": "chunk-5PBF46PW.js"
     "chunk-5PBF46PW": {
       "file": "chunk-5PBF46PW.js"
     },
