@@ -1,4 +1,4 @@
-package com.yourcompany.project.model;
+package com.example.project.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

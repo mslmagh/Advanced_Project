@@ -1,4 +1,4 @@
-package com.yourcompany.project.model;
+package com.example.project.model;
 
 public enum OrderStatus {
     PENDING,
