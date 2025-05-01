@@ -2,12 +2,10 @@ package com.yourcompany.project.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
+@Data
 @Entity
 @Table(name = "roles")
-@Data
-@NoArgsConstructor
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,8 +14,4 @@ public class Role {
     @Enumerated(EnumType.STRING)
     @Column(length = 20)
     private ERole name;
-
-    public Role(ERole name) {
-        this.name = name;
-    }
 } 
