@@ -5,6 +5,7 @@ import {
   TemplatePortal
 } from "./chunk-4MFHAJ4W.js";
 import {
+<<<<<<< Updated upstream
   SharedResizeObserver
 } from "./chunk-DRM6IRC6.js";
 import {
@@ -22,6 +23,16 @@ import {
 import "./chunk-JPJU4FYC.js";
 import "./chunk-SVVIGFXE.js";
 import "./chunk-IJ3KGSPX.js";
+=======
+  MAT_RIPPLE_GLOBAL_OPTIONS,
+  MatRipple
+} from "./chunk-O2AI7BY2.js";
+import {
+  _StructuralStylesLoader
+} from "./chunk-COOQCVQY.js";
+import "./chunk-SVVIGFXE.js";
+import "./chunk-JPJU4FYC.js";
+>>>>>>> Stashed changes
 import {
   CdkMonitorFocus,
   CdkObserveContent,
@@ -32,17 +43,31 @@ import {
   SPACE,
   _IdGenerator,
   hasModifierKey
+<<<<<<< Updated upstream
 } from "./chunk-BDZASCDS.js";
+=======
+} from "./chunk-YMYJW57V.js";
+import {
+  CdkScrollable,
+  ViewportRuler
+} from "./chunk-GM3DTQJI.js";
+import "./chunk-Z3OILNAQ.js";
+import "./chunk-IJ3KGSPX.js";
+>>>>>>> Stashed changes
 import {
   Directionality
 } from "./chunk-X2YM2O7M.js";
 import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
-} from "./chunk-CARCNQOJ.js";
+} from "./chunk-KJR3SM7H.js";
 import {
   Platform
+<<<<<<< Updated upstream
 } from "./chunk-HWXYGQRU.js";
+=======
+} from "./chunk-7TZ5YK4W.js";
+>>>>>>> Stashed changes
 import "./chunk-6WJ46GLD.js";
 import "./chunk-BJJC6FNP.js";
 import {

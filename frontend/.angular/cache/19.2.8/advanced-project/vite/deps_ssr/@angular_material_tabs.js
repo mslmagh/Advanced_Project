@@ -1,5 +1,6 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
+<<<<<<< Updated upstream
   CdkScrollable,
   ViewportRuler
 } from "./chunk-64KQ3B3V.js";
@@ -7,11 +8,20 @@ import {
   MAT_RIPPLE_GLOBAL_OPTIONS,
   MatRipple
 } from "./chunk-Z64XTEZI.js";
+=======
+  SharedResizeObserver
+} from "./chunk-IIHM4C3E.js";
+import {
+  CdkScrollable,
+  ViewportRuler
+} from "./chunk-YOVSCO4D.js";
+>>>>>>> Stashed changes
 import "./chunk-IEKDUPL3.js";
 import {
   CdkPortal,
   CdkPortalOutlet,
   TemplatePortal
+<<<<<<< Updated upstream
 } from "./chunk-EFVFPU3E.js";
 import "./chunk-DTJNPJXJ.js";
 import {
@@ -21,7 +31,19 @@ import {
   SharedResizeObserver
 } from "./chunk-TX47TSAR.js";
 import "./chunk-F5EUNRCZ.js";
+=======
+} from "./chunk-T5QJD6HO.js";
+import "./chunk-RSA6WLWC.js";
+import {
+  MAT_RIPPLE_GLOBAL_OPTIONS,
+  MatRipple
+} from "./chunk-SGMKLVXI.js";
+import {
+  _StructuralStylesLoader
+} from "./chunk-LC4O5QI5.js";
+>>>>>>> Stashed changes
 import "./chunk-K4SCQFZE.js";
+import "./chunk-FHS2A35M.js";
 import "./chunk-Z7XGOMFB.js";
 import {
   CdkMonitorFocus,
@@ -33,6 +55,7 @@ import {
   SPACE,
   _IdGenerator,
   hasModifierKey
+<<<<<<< Updated upstream
 } from "./chunk-RFGGZI5V.js";
 import {
   _CdkPrivateStyleLoader,
@@ -46,6 +69,21 @@ import {
 } from "./chunk-KUDK3IEG.js";
 import "./chunk-KXIDSWWM.js";
 import "./chunk-YRPTRWJS.js";
+=======
+} from "./chunk-W7VLRG6X.js";
+import {
+  Directionality
+} from "./chunk-FGGTBHIW.js";
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-7VJJUKTJ.js";
+import {
+  Platform
+} from "./chunk-Q47UYPFP.js";
+import "./chunk-HQKTRAST.js";
+import "./chunk-TK5VCKB2.js";
+>>>>>>> Stashed changes
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -112,13 +150,13 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-4UBR7WAK.js";
-import {
-  require_cjs
-} from "./chunk-ZUJ64LXG.js";
+} from "./chunk-UI7CJKIZ.js";
 import {
   require_operators
 } from "./chunk-XCIYP5SE.js";
+import {
+  require_cjs
+} from "./chunk-ZUJ64LXG.js";
 import "./chunk-OYTRG5F6.js";
 import {
   __toESM

@@ -1,22 +1,32 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
+<<<<<<< Updated upstream
   ScrollingModule,
   ViewportRuler
 } from "./chunk-64KQ3B3V.js";
 import {
   _DisposeViewRepeaterStrategy
 } from "./chunk-XGB65XKH.js";
+=======
+  _DisposeViewRepeaterStrategy
+} from "./chunk-6LE55BAO.js";
+import {
+  ScrollingModule,
+  ViewportRuler
+} from "./chunk-YOVSCO4D.js";
+>>>>>>> Stashed changes
 import {
   DataSource,
   _RecycleViewRepeaterStrategy,
   _VIEW_REPEATER_STRATEGY,
   _ViewRepeaterOperation,
   isDataSource
-} from "./chunk-DTJNPJXJ.js";
+} from "./chunk-RSA6WLWC.js";
 import "./chunk-K4SCQFZE.js";
 import "./chunk-Z7XGOMFB.js";
 import {
   MatCommonModule
+<<<<<<< Updated upstream
 } from "./chunk-RFGGZI5V.js";
 import "./chunk-WUZ3QNCR.js";
 import {
@@ -27,9 +37,21 @@ import {
   Directionality
 } from "./chunk-KUDK3IEG.js";
 import "./chunk-KXIDSWWM.js";
+=======
+} from "./chunk-W7VLRG6X.js";
+import {
+  Directionality
+} from "./chunk-FGGTBHIW.js";
+import "./chunk-7VJJUKTJ.js";
+import {
+  Platform,
+  _isNumberValue
+} from "./chunk-Q47UYPFP.js";
+import "./chunk-HQKTRAST.js";
+>>>>>>> Stashed changes
 import {
   DOCUMENT
-} from "./chunk-YRPTRWJS.js";
+} from "./chunk-TK5VCKB2.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -84,13 +106,13 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate1,
   ɵɵviewQuery
-} from "./chunk-4UBR7WAK.js";
-import {
-  require_cjs
-} from "./chunk-ZUJ64LXG.js";
+} from "./chunk-UI7CJKIZ.js";
 import {
   require_operators
 } from "./chunk-XCIYP5SE.js";
+import {
+  require_cjs
+} from "./chunk-ZUJ64LXG.js";
 import "./chunk-OYTRG5F6.js";
 import {
   __toESM
