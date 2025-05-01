@@ -1,15 +1,16 @@
+import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
   DomSanitizer
-} from "./chunk-5SAMU7BG.js";
+} from "./chunk-CKROVLW3.js";
 import {
   HttpClient
-} from "./chunk-TWCRVS4O.js";
+} from "./chunk-G7TVHKQS.js";
 import {
   MatCommonModule
-} from "./chunk-Q4JQSRNZ.js";
+} from "./chunk-U7YFLKCF.js";
 import {
   DOCUMENT
-} from "./chunk-PEP5XX4P.js";
+} from "./chunk-YRPTRWJS.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -38,23 +39,24 @@ import {
   ɵɵinject,
   ɵɵprojection,
   ɵɵprojectionDef
-} from "./chunk-ZU533V4U.js";
+} from "./chunk-4UBR7WAK.js";
 import {
-  forkJoin
-} from "./chunk-FFZIAYYX.js";
+  require_cjs
+} from "./chunk-ZUJ64LXG.js";
 import {
-  Subscription,
-  catchError,
-  finalize,
-  map,
-  of,
-  share,
-  take,
-  tap,
-  throwError
-} from "./chunk-CXCX2JKZ.js";
+  require_operators
+} from "./chunk-XCIYP5SE.js";
+import {
+  __toESM
+} from "./chunk-YHCV7DAQ.js";
+
+// node_modules/@angular/material/fesm2022/icon.mjs
+var import_rxjs2 = __toESM(require_cjs(), 1);
+var import_operators2 = __toESM(require_operators(), 1);
 
 // node_modules/@angular/material/fesm2022/icon-registry-BRgH4K8p.mjs
+var import_rxjs = __toESM(require_cjs(), 1);
+var import_operators = __toESM(require_operators(), 1);
 var policy;
 function getPolicy() {
   if (policy === void 0) {
@@ -278,9 +280,9 @@ var MatIconRegistry = class _MatIconRegistry {
     }
     const cachedIcon = this._cachedIconsByUrl.get(url);
     if (cachedIcon) {
-      return of(cloneSvg(cachedIcon));
+      return (0, import_rxjs.of)(cloneSvg(cachedIcon));
     }
-    return this._loadSvgIconFromConfig(new SvgIconConfig(safeUrl, null)).pipe(tap((svg) => this._cachedIconsByUrl.set(url, svg)), map((svg) => cloneSvg(svg)));
+    return this._loadSvgIconFromConfig(new SvgIconConfig(safeUrl, null)).pipe((0, import_operators.tap)((svg) => this._cachedIconsByUrl.set(url, svg)), (0, import_operators.map)((svg) => cloneSvg(svg)));
   }
   /**
    * Returns an Observable that produces the icon (as an `<svg>` DOM element) with the given name
@@ -305,7 +307,7 @@ var MatIconRegistry = class _MatIconRegistry {
     if (iconSetConfigs) {
       return this._getSvgFromIconSetConfigs(name, iconSetConfigs);
     }
-    return throwError(getMatIconNameNotFoundError(key));
+    return (0, import_rxjs.throwError)(getMatIconNameNotFoundError(key));
   }
   ngOnDestroy() {
     this._resolvers = [];
@@ -318,9 +320,9 @@ var MatIconRegistry = class _MatIconRegistry {
    */
   _getSvgFromConfig(config) {
     if (config.svgText) {
-      return of(cloneSvg(this._svgElementFromConfig(config)));
+      return (0, import_rxjs.of)(cloneSvg(this._svgElementFromConfig(config)));
     } else {
-      return this._loadSvgIconFromConfig(config).pipe(map((svg) => cloneSvg(svg)));
+      return this._loadSvgIconFromConfig(config).pipe((0, import_operators.map)((svg) => cloneSvg(svg)));
     }
   }
   /**
@@ -334,17 +336,17 @@ var MatIconRegistry = class _MatIconRegistry {
   _getSvgFromIconSetConfigs(name, iconSetConfigs) {
     const namedIcon = this._extractIconWithNameFromAnySet(name, iconSetConfigs);
     if (namedIcon) {
-      return of(namedIcon);
+      return (0, import_rxjs.of)(namedIcon);
     }
     const iconSetFetchRequests = iconSetConfigs.filter((iconSetConfig) => !iconSetConfig.svgText).map((iconSetConfig) => {
-      return this._loadSvgIconSetFromConfig(iconSetConfig).pipe(catchError((err) => {
+      return this._loadSvgIconSetFromConfig(iconSetConfig).pipe((0, import_operators.catchError)((err) => {
         const url = this._sanitizer.sanitize(SecurityContext.RESOURCE_URL, iconSetConfig.url);
         const errorMessage = `Loading icon set URL: ${url} failed: ${err.message}`;
         this._errorHandler.handleError(new Error(errorMessage));
-        return of(null);
+        return (0, import_rxjs.of)(null);
       }));
     });
-    return forkJoin(iconSetFetchRequests).pipe(map(() => {
+    return (0, import_rxjs.forkJoin)(iconSetFetchRequests).pipe((0, import_operators.map)(() => {
       const foundIcon = this._extractIconWithNameFromAnySet(name, iconSetConfigs);
       if (!foundIcon) {
         throw getMatIconNameNotFoundError(name);
@@ -375,7 +377,7 @@ var MatIconRegistry = class _MatIconRegistry {
    * from it.
    */
   _loadSvgIconFromConfig(config) {
-    return this._fetchIcon(config).pipe(tap((svgText) => config.svgText = svgText), map(() => this._svgElementFromConfig(config)));
+    return this._fetchIcon(config).pipe((0, import_operators.tap)((svgText) => config.svgText = svgText), (0, import_operators.map)(() => this._svgElementFromConfig(config)));
   }
   /**
    * Loads the content of the icon set URL specified in the
@@ -383,9 +385,9 @@ var MatIconRegistry = class _MatIconRegistry {
    */
   _loadSvgIconSetFromConfig(config) {
     if (config.svgText) {
-      return of(null);
+      return (0, import_rxjs.of)(null);
     }
-    return this._fetchIcon(config).pipe(tap((svgText) => config.svgText = svgText));
+    return this._fetchIcon(config).pipe((0, import_operators.tap)((svgText) => config.svgText = svgText));
   }
   /**
    * Searches the cached element of the given SvgIconConfig for a nested icon element whose "id"
@@ -484,9 +486,9 @@ var MatIconRegistry = class _MatIconRegistry {
     const req = this._httpClient.get(url, {
       responseType: "text",
       withCredentials
-    }).pipe(map((svg) => {
+    }).pipe((0, import_operators.map)((svg) => {
       return trustedHTMLFromString(svg);
-    }), finalize(() => this._inProgressUrlFetches.delete(url)), share());
+    }), (0, import_operators.finalize)(() => this._inProgressUrlFetches.delete(url)), (0, import_operators.share)());
     this._inProgressUrlFetches.set(url, req);
     return req;
   }
@@ -678,7 +680,7 @@ var MatIcon = class _MatIcon {
   /** Keeps track of the elements and attributes that we've prefixed with the current path. */
   _elementsWithExternalReferences;
   /** Subscription to the current in-progress SVG icon request. */
-  _currentIconFetch = Subscription.EMPTY;
+  _currentIconFetch = import_rxjs2.Subscription.EMPTY;
   constructor() {
     const ariaHidden = inject(new HostAttributeToken("aria-hidden"), {
       optional: true
@@ -850,7 +852,7 @@ var MatIcon = class _MatIcon {
       if (iconName) {
         this._svgName = iconName;
       }
-      this._currentIconFetch = this._iconRegistry.getNamedSvgIcon(iconName, namespace).pipe(take(1)).subscribe((svg) => this._setSvgElement(svg), (err) => {
+      this._currentIconFetch = this._iconRegistry.getNamedSvgIcon(iconName, namespace).pipe((0, import_operators2.take)(1)).subscribe((svg) => this._setSvgElement(svg), (err) => {
         const errorMessage = `Error retrieving icon ${namespace}:${iconName}! ${err.message}`;
         this._errorHandler.handleError(new Error(errorMessage));
       });
@@ -973,4 +975,4 @@ export {
   MatIcon,
   MatIconModule
 };
-//# sourceMappingURL=chunk-ABNVPRP4.js.map
+//# sourceMappingURL=chunk-FW4SVGDW.js.map

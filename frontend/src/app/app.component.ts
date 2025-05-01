@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterOutlet } from '@angular/router';
+import { Router } from '@angular/router';
 
 interface Category {
   name: string;
@@ -47,10 +48,13 @@ interface Category {
           </button>
         </mat-form-field>
         <div class="user-actions">
-          <a mat-button routerLink="/hesabim">
-            <mat-icon>person</mat-icon>
-            Hesabım
-          </a>
+          <div class="dropdown">
+            <button class="login-btn">Giriş Yap</button>
+            <div class="dropdown-content">
+              <a routerLink="/auth/login">Giriş Yap</a>
+              <a routerLink="/auth/register">Üye Ol</a>
+            </div>
+          </div>
           <a mat-button routerLink="/favorilerim">
             <mat-icon>favorite_border</mat-icon>
             Favorilerim
@@ -108,6 +112,7 @@ interface Category {
     .user-actions {
       display: flex;
       gap: 8px;
+      align-items: center;
     }
 
     .user-actions a {
@@ -150,11 +155,57 @@ interface Category {
       padding: 20px;
     }
 
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .login-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: none;
+      border: none;
+      color: #222;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0;
+      transition: color 0.2s;
+    }
+    .login-btn:hover {
+      color: #ff6000;
+    }
+    .login-btn .mat-icon, .login-btn i {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      transition: background-color 0.3s;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
     @media (max-width: 768px) {
       .user-actions {
         display: none;
       }
-      
       .search-field {
         max-width: none;
       }
@@ -165,5 +216,9 @@ export class AppComponent {
   cartItemCount = 2;
   searchQuery = '';
 
-  constructor(public authService: AuthService) {}
+  constructor(public authService: AuthService, private router: Router) {}
+
+  onRegister() {
+    this.router.navigate(['/login']);
+  }
 }

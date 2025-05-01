@@ -25,10 +25,13 @@
     </div>
 
     <div class="user-actions">
-      <a routerLink="/hesabim" class="action-item">
-        <i class="user-icon"></i>
-        <span>Hesabım</span>
-      </a>
+      <div class="dropdown">
+        <button class="login-btn">Giriş Yap</button>
+        <div class="dropdown-content">
+          <a routerLink="/login">Giriş Yap</a>
+          <a routerLink="/register">Üye Ol</a>
+        </div>
+      </div>
       <a routerLink="/favorilerim" class="action-item">
         <i class="heart-icon"></i>
         <span>Favorilerim</span>
@@ -46,7 +49,7 @@
       <i class="menu-icon"></i>
       TÜM KATEGORİLER
     </button>
-    
+
     <ul class="nav-categories">
       @for (category of categories; track category.name) {
         <li>
@@ -78,4 +81,4 @@
       <span>İndirim Kuponlarım</span>
     </a>
   </div>
-</header> 
+</header>

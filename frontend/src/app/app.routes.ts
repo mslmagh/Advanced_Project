@@ -4,11 +4,13 @@ import { STATIC_PAGES_ROUTES } from './modules/static-pages/static-pages.routes'
 import { AccountComponent } from './modules/account/components/account/account.component';
 import { FavoritesComponent } from './modules/favorites/components/favorites/favorites.component';
 import { CartComponent } from './modules/cart/components/cart/cart.component';
+import { LoginComponent } from './auth/components/login/login.component';
+import { RegisterComponent } from './auth/components/register/register.component';
 
 export const routes: Routes = [
-  { 
-    path: '', 
-    component: HomeComponent 
+  {
+    path: '',
+    component: HomeComponent
   },
   {
     path: 'kadin',
@@ -66,9 +68,11 @@ export const routes: Routes = [
     path: 'sepetim',
     component: CartComponent
   },
+  { path: 'auth/login', component: LoginComponent },
+  { path: 'auth/register', component: RegisterComponent },
   ...STATIC_PAGES_ROUTES,
-  { 
-    path: '**', 
-    redirectTo: '' 
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
