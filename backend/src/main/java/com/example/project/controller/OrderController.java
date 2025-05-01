@@ -1,10 +1,10 @@
-package com.yourcompany.project.controller;
+package com.example.project.controller;
 
-import com.yourcompany.project.model.Order;
-import com.yourcompany.project.model.OrderItem;
-import com.yourcompany.project.model.OrderStatus;
-import com.yourcompany.project.service.OrderService;
-import com.yourcompany.project.service.UserService;
+import com.example.project.model.Order;
+import com.example.project.model.OrderItem;
+import com.example.project.model.OrderStatus;
+import com.example.project.service.OrderService;
+import com.example.project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
