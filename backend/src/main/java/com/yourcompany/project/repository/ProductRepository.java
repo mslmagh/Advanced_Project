@@ -13,8 +13,8 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    Page<Product> findByCategoryId(Long categoryId, Pageable pageable);
-    Page<Product> findBySellerId(Long sellerId, Pageable pageable);
+    List<Product> findByCategoryId(Long categoryId);
+    List<Product> findBySellerId(Long sellerId);
     
     @Query("SELECT p FROM Product p WHERE " +
            "(:minPrice IS NULL OR p.price >= :minPrice) AND " +

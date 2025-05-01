@@ -2,7 +2,10 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   _DisposeViewRepeaterStrategy
 } from "./chunk-XGB65XKH.js";
+<<<<<<< Updated upstream
 import "./chunk-K4SCQFZE.js";
+=======
+>>>>>>> Stashed changes
 import {
   ScrollingModule,
   ViewportRuler
@@ -14,6 +17,10 @@ import {
   _ViewRepeaterOperation,
   isDataSource
 } from "./chunk-DTJNPJXJ.js";
+<<<<<<< Updated upstream
+=======
+import "./chunk-K4SCQFZE.js";
+>>>>>>> Stashed changes
 import "./chunk-Z7XGOMFB.js";
 import {
   MatCommonModule

@@ -5,6 +5,17 @@ import {
   TemplatePortal
 } from "./chunk-4MFHAJ4W.js";
 import {
+<<<<<<< Updated upstream
+=======
+  SharedResizeObserver
+} from "./chunk-DRM6IRC6.js";
+import {
+  CdkScrollable,
+  ViewportRuler
+} from "./chunk-GM3DTQJI.js";
+import "./chunk-Z3OILNAQ.js";
+import {
+>>>>>>> Stashed changes
   MAT_RIPPLE_GLOBAL_OPTIONS,
   MatRipple
 } from "./chunk-OLLYUFBW.js";
@@ -16,11 +27,14 @@ import {
 } from "./chunk-DRM6IRC6.js";
 import "./chunk-JPJU4FYC.js";
 import "./chunk-SVVIGFXE.js";
+<<<<<<< Updated upstream
 import {
   CdkScrollable,
   ViewportRuler
 } from "./chunk-GM3DTQJI.js";
 import "./chunk-Z3OILNAQ.js";
+=======
+>>>>>>> Stashed changes
 import "./chunk-IJ3KGSPX.js";
 import {
   CdkMonitorFocus,

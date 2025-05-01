@@ -20,29 +20,28 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    @Size(max = 100)
+    @Column(nullable = false)
     private String name;
 
-    @NotBlank
-    @Size(max = 500)
+    @Column(nullable = false)
     private String description;
 
-    @NotNull
-    @Positive
+    @Column(nullable = false)
     private BigDecimal price;
 
-    @NotNull
-    @Positive
-    private Integer stockQuantity;
+    @Column(nullable = false)
+    private Integer stock;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "category_id")
+    @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "seller_id")
+    @ManyToOne
+    @JoinColumn(name = "seller_id", nullable = false)
     private User seller;
+
+    @Column(nullable = false)
+    private String imageUrl;
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private Set<OrderItem> orderItems;
@@ -51,6 +50,6 @@ public class Product {
         this.name = name;
         this.description = description;
         this.price = price;
-        this.stockQuantity = stockQuantity;
+        this.stock = stockQuantity;
     }
 } 
