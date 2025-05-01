@@ -1,7 +1,15 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
+<<<<<<< Updated upstream
 import {
 <<<<<<< Updated upstream
 =======
+  SharedResizeObserver
+} from "./chunk-TX47TSAR.js";
+import "./chunk-IEKDUPL3.js";
+import {
+>>>>>>> Stashed changes
+=======
+import {
   SharedResizeObserver
 } from "./chunk-TX47TSAR.js";
 import "./chunk-IEKDUPL3.js";
@@ -12,12 +20,18 @@ import {
   TemplatePortal
 } from "./chunk-EFVFPU3E.js";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 import {
   CdkScrollable,
   ViewportRuler
 } from "./chunk-Y7VOOCVQ.js";
 import "./chunk-DTJNPJXJ.js";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 import {
   MAT_RIPPLE_GLOBAL_OPTIONS,
@@ -27,9 +41,12 @@ import {
   _StructuralStylesLoader
 } from "./chunk-5PBF46PW.js";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import {
   SharedResizeObserver
 } from "./chunk-TX47TSAR.js";
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 import "./chunk-F5EUNRCZ.js";

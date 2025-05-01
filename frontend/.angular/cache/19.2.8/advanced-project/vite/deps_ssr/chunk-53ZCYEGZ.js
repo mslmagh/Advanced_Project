@@ -5,6 +5,7 @@ import {
   TemplatePortal
 } from "./chunk-EFVFPU3E.js";
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 import {
   _isTestEnvironment
 } from "./chunk-F5EUNRCZ.js";
@@ -13,13 +14,18 @@ import {
 } from "./chunk-K4SCQFZE.js";
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
 import {
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
 } from "./chunk-Y7VOOCVQ.js";
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 ========
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
 import {
   _isTestEnvironment
 } from "./chunk-F5EUNRCZ.js";
@@ -2909,7 +2915,11 @@ export {
   OverlayModule
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 //# sourceMappingURL=chunk-53ZCYEGZ.js.map
+========
+//# sourceMappingURL=chunk-RPYWFG76.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
 ========
 //# sourceMappingURL=chunk-RPYWFG76.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js

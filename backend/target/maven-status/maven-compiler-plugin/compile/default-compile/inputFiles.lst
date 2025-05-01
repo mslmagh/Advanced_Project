@@ -4,7 +4,10 @@ C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\config\WebSecurityConfig.java
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\service\UserDetailsImpl.java
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\model\Product.java
+<<<<<<< Updated upstream
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\service\ProductService.java
+=======
+>>>>>>> Stashed changes
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\repository\OrderRepository.java
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\repository\ProductRepository.java
 C:\Users\muslu\Masaüstü\advanced-project\backend\src\main\java\com\yourcompany\project\controller\CategoryController.java

@@ -1,21 +1,31 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "hash": "82ba66bc",
   "configHash": "49d0de3b",
   "lockfileHash": "235400d5",
   "browserHash": "8551cf8d",
 =======
+=======
+>>>>>>> Stashed changes
   "hash": "33276268",
   "configHash": "49d0de3b",
   "lockfileHash": "ad898fc8",
   "browserHash": "5a377a5f",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "optimized": {
     "@angular/cdk/bidi": {
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
       "file": "@angular_cdk_bidi.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "831afb03",
+=======
+      "fileHash": "80982fae",
+>>>>>>> Stashed changes
 =======
       "fileHash": "80982fae",
 >>>>>>> Stashed changes
@@ -25,7 +35,11 @@
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/scrolling.mjs",
       "file": "@angular_cdk_scrolling.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "f52ab7d3",
+=======
+      "fileHash": "5d8f4c3f",
+>>>>>>> Stashed changes
 =======
       "fileHash": "5d8f4c3f",
 >>>>>>> Stashed changes
@@ -35,7 +49,11 @@
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/text-field.mjs",
       "file": "@angular_cdk_text-field.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "02385d17",
+=======
+      "fileHash": "1fa08d8d",
+>>>>>>> Stashed changes
 =======
       "fileHash": "1fa08d8d",
 >>>>>>> Stashed changes
@@ -45,7 +63,11 @@
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "24ec9f2a",
+=======
+      "fileHash": "008b6de2",
+>>>>>>> Stashed changes
 =======
       "fileHash": "008b6de2",
 >>>>>>> Stashed changes
@@ -55,7 +77,11 @@
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "7098df53",
+=======
+      "fileHash": "d4c356ff",
+>>>>>>> Stashed changes
 =======
       "fileHash": "d4c356ff",
 >>>>>>> Stashed changes
@@ -65,7 +91,11 @@
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "8f0b9e30",
+=======
+      "fileHash": "5c24760d",
+>>>>>>> Stashed changes
 =======
       "fileHash": "5c24760d",
 >>>>>>> Stashed changes
@@ -75,7 +105,11 @@
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "2eadf0fb",
+=======
+      "fileHash": "9beb9b5c",
+>>>>>>> Stashed changes
 =======
       "fileHash": "9beb9b5c",
 >>>>>>> Stashed changes
@@ -85,7 +119,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/badge.mjs",
       "file": "@angular_material_badge.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "57e2d303",
+=======
+      "fileHash": "9ea74c4f",
+>>>>>>> Stashed changes
 =======
       "fileHash": "9ea74c4f",
 >>>>>>> Stashed changes
@@ -95,7 +133,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/button.mjs",
       "file": "@angular_material_button.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "06706d6f",
+=======
+      "fileHash": "513288ee",
+>>>>>>> Stashed changes
 =======
       "fileHash": "513288ee",
 >>>>>>> Stashed changes
@@ -105,7 +147,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/card.mjs",
       "file": "@angular_material_card.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "ebcc004c",
+=======
+      "fileHash": "b9572063",
+>>>>>>> Stashed changes
 =======
       "fileHash": "b9572063",
 >>>>>>> Stashed changes
@@ -115,7 +161,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/divider.mjs",
       "file": "@angular_material_divider.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "cc68d104",
+=======
+      "fileHash": "11799148",
+>>>>>>> Stashed changes
 =======
       "fileHash": "11799148",
 >>>>>>> Stashed changes
@@ -125,7 +175,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/expansion.mjs",
       "file": "@angular_material_expansion.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "d7996c71",
+=======
+      "fileHash": "57ae32c8",
+>>>>>>> Stashed changes
 =======
       "fileHash": "57ae32c8",
 >>>>>>> Stashed changes
@@ -135,7 +189,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/form-field.mjs",
       "file": "@angular_material_form-field.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "c5ac6702",
+=======
+      "fileHash": "b642e2f1",
+>>>>>>> Stashed changes
 =======
       "fileHash": "b642e2f1",
 >>>>>>> Stashed changes
@@ -145,7 +203,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/grid-list.mjs",
       "file": "@angular_material_grid-list.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "2df5b476",
+=======
+      "fileHash": "7ba8717b",
+>>>>>>> Stashed changes
 =======
       "fileHash": "7ba8717b",
 >>>>>>> Stashed changes
@@ -155,7 +217,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/icon.mjs",
       "file": "@angular_material_icon.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "61372ac7",
+=======
+      "fileHash": "40d8835f",
+>>>>>>> Stashed changes
 =======
       "fileHash": "40d8835f",
 >>>>>>> Stashed changes
@@ -165,7 +231,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/input.mjs",
       "file": "@angular_material_input.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "96dd3a5d",
+=======
+      "fileHash": "bc2a748c",
+>>>>>>> Stashed changes
 =======
       "fileHash": "bc2a748c",
 >>>>>>> Stashed changes
@@ -175,7 +245,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/menu.mjs",
       "file": "@angular_material_menu.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "dc3ad4a1",
+=======
+      "fileHash": "1b5c31b7",
+>>>>>>> Stashed changes
 =======
       "fileHash": "1b5c31b7",
 >>>>>>> Stashed changes
@@ -185,7 +259,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/select.mjs",
       "file": "@angular_material_select.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "01f703e4",
+=======
+      "fileHash": "52171af6",
+>>>>>>> Stashed changes
 =======
       "fileHash": "52171af6",
 >>>>>>> Stashed changes
@@ -195,7 +273,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/snack-bar.mjs",
       "file": "@angular_material_snack-bar.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "83c2edc1",
+=======
+      "fileHash": "10278e14",
+>>>>>>> Stashed changes
 =======
       "fileHash": "10278e14",
 >>>>>>> Stashed changes
@@ -205,7 +287,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/stepper.mjs",
       "file": "@angular_material_stepper.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "ecf2eb14",
+=======
+      "fileHash": "12eb125d",
+>>>>>>> Stashed changes
 =======
       "fileHash": "12eb125d",
 >>>>>>> Stashed changes
@@ -215,7 +301,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/table.mjs",
       "file": "@angular_material_table.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "5dfeeca3",
+=======
+      "fileHash": "ca3e6470",
+>>>>>>> Stashed changes
 =======
       "fileHash": "ca3e6470",
 >>>>>>> Stashed changes
@@ -225,7 +315,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/tabs.mjs",
       "file": "@angular_material_tabs.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "f9e91631",
+=======
+      "fileHash": "8af4f88f",
+>>>>>>> Stashed changes
 =======
       "fileHash": "8af4f88f",
 >>>>>>> Stashed changes
@@ -235,7 +329,11 @@
       "src": "../../../../../../node_modules/@angular/material/fesm2022/toolbar.mjs",
       "file": "@angular_material_toolbar.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "e1e617e0",
+=======
+      "fileHash": "3628c706",
+>>>>>>> Stashed changes
 =======
       "fileHash": "3628c706",
 >>>>>>> Stashed changes
@@ -245,7 +343,11 @@
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "b2715b23",
+=======
+      "fileHash": "c24cb048",
+>>>>>>> Stashed changes
 =======
       "fileHash": "c24cb048",
 >>>>>>> Stashed changes
@@ -255,7 +357,11 @@
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
       "file": "@angular_platform-browser_animations.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "47e6ce87",
+=======
+      "fileHash": "683df75b",
+>>>>>>> Stashed changes
 =======
       "fileHash": "683df75b",
 >>>>>>> Stashed changes
@@ -265,7 +371,11 @@
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "a99517f4",
+=======
+      "fileHash": "a5dcdd12",
+>>>>>>> Stashed changes
 =======
       "fileHash": "a5dcdd12",
 >>>>>>> Stashed changes
@@ -275,7 +385,11 @@
       "src": "../../../../../../node_modules/@auth0/angular-jwt/fesm2020/auth0-angular-jwt.mjs",
       "file": "@auth0_angular-jwt.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "4ed32ccb",
+=======
+      "fileHash": "b94345ec",
+>>>>>>> Stashed changes
 =======
       "fileHash": "b94345ec",
 >>>>>>> Stashed changes
@@ -285,7 +399,11 @@
       "src": "../../../../../../node_modules/rxjs/dist/esm5/index.js",
       "file": "rxjs.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "3c44931a",
+=======
+      "fileHash": "d07bf0ee",
+>>>>>>> Stashed changes
 =======
       "fileHash": "d07bf0ee",
 >>>>>>> Stashed changes
@@ -295,7 +413,11 @@
       "src": "../../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
       "file": "rxjs_operators.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "54d3718a",
+=======
+      "fileHash": "76e48fe5",
+>>>>>>> Stashed changes
 =======
       "fileHash": "76e48fe5",
 >>>>>>> Stashed changes
@@ -307,9 +429,12 @@
       "file": "chunk-OIBNGD5S.js"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "chunk-4NAWXTUP": {
       "file": "chunk-4NAWXTUP.js"
     },
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "chunk-WH5FT4U6": {
@@ -322,8 +447,13 @@
       "file": "chunk-VDMPMS4D.js"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "chunk-NROYEGC7": {
       "file": "chunk-NROYEGC7.js"
+=======
+    "chunk-JZ6INQU3": {
+      "file": "chunk-JZ6INQU3.js"
+>>>>>>> Stashed changes
 =======
     "chunk-JZ6INQU3": {
       "file": "chunk-JZ6INQU3.js"
@@ -336,6 +466,7 @@
       "file": "chunk-E6UZ2EG6.js"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "chunk-CGUTEFGA": {
       "file": "chunk-CGUTEFGA.js"
     },
@@ -345,6 +476,8 @@
     "chunk-COOQCVQY": {
       "file": "chunk-COOQCVQY.js"
     },
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "chunk-CY6CPK42": {
@@ -360,7 +493,10 @@
       "file": "chunk-DRM6IRC6.js"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     "chunk-QI2WVUQK": {
       "file": "chunk-QI2WVUQK.js"
     },
@@ -396,6 +532,7 @@
       "file": "chunk-SVVIGFXE.js"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "chunk-QI2WVUQK": {
       "file": "chunk-QI2WVUQK.js"
     },
@@ -414,6 +551,11 @@
     "chunk-M6MHKO7A": {
       "file": "chunk-M6MHKO7A.js"
     },
+=======
+    "chunk-IJ3KGSPX": {
+      "file": "chunk-IJ3KGSPX.js"
+    },
+>>>>>>> Stashed changes
 =======
     "chunk-IJ3KGSPX": {
       "file": "chunk-IJ3KGSPX.js"
