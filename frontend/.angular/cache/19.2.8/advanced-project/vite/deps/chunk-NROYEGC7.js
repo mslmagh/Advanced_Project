@@ -17,11 +17,14 @@ import {
 import {
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
 } from "./chunk-GM3DTQJI.js";
 import {
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 ========
@@ -2905,7 +2908,11 @@ export {
 };
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 //# sourceMappingURL=chunk-NROYEGC7.js.map
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 ========
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js

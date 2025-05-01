@@ -17,7 +17,12 @@ import {
 import {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
@@ -29,9 +34,16 @@ import {
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 =======
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+=======
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 >>>>>>> Stashed changes
@@ -2914,7 +2926,12 @@ export {
 };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
@@ -2923,10 +2940,19 @@ export {
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>> Stashed changes
 =======
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+=======
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 ========
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
