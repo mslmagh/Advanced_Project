@@ -1,8 +1,6 @@
-package com.yourcompany.project.model;
+package com.example.project.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Positive;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -25,17 +23,6 @@ public class OrderItem {
     @JoinColumn(name = "product_id")
     private Product product;
 
-    @NotNull
-    @Positive
-    private Integer quantity;
-
-    @NotNull
-    @Positive
-    private BigDecimal unitPrice;
-
-    public OrderItem(Product product, Integer quantity, BigDecimal unitPrice) {
-        this.product = product;
-        this.quantity = quantity;
-        this.unitPrice = unitPrice;
-    }
+    private int quantity;
+    private BigDecimal price;
 } 

@@ -1,7 +1,7 @@
-package com.yourcompany.project.repository;
+package com.example.project.repository;
 
-import com.yourcompany.project.model.ERole;
-import com.yourcompany.project.model.Role;
+import com.example.project.model.ERole;
+import com.example.project.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

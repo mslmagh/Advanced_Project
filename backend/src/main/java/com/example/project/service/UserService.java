@@ -1,10 +1,10 @@
-package com.yourcompany.project.service;
+package com.example.project.service;
 
-import com.yourcompany.project.model.ERole;
-import com.yourcompany.project.model.Role;
-import com.yourcompany.project.model.User;
-import com.yourcompany.project.repository.RoleRepository;
-import com.yourcompany.project.repository.UserRepository;
+import com.example.project.model.ERole;
+import com.example.project.model.Role;
+import com.example.project.model.User;
+import com.example.project.repository.RoleRepository;
+import com.example.project.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -39,10 +39,8 @@ public class UserService {
     }
 
     public User getCurrentUser() {
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        String email = authentication.getName();
-        return userRepository.findByEmail(email)
-                .orElseThrow(() -> new RuntimeException("Error: User not found."));
+        // TODO: Implement current user retrieval logic
+        return null;
     }
 
     public boolean existsByEmail(String email) {
@@ -50,16 +48,12 @@ public class UserService {
     }
 
     public User getUserById(Long id) {
-        return userRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Error: User not found."));
+        // TODO: Implement actual user retrieval logic
+        return null;
     }
 
     public User updateUser(Long id, User userDetails) {
-        User user = getUserById(id);
-        user.setFirstName(userDetails.getFirstName());
-        user.setLastName(userDetails.getLastName());
-        user.setPhone(userDetails.getPhone());
-        user.setAddress(userDetails.getAddress());
-        return userRepository.save(user);
+        // TODO: Implement actual user update logic
+        return null;
     }
 } 

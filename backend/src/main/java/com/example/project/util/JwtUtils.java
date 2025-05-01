@@ -1,4 +1,4 @@
-package com.yourcompany.project.util;
+package com.example.project.util;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
