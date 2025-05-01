@@ -1,30 +1,24 @@
 package com.yourcompany.project.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
+import java.util.HashSet;
 import java.util.Set;
 
+@Data
 @Entity
 @Table(name = "categories")
-@Data
-@NoArgsConstructor
 public class Category {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @NotBlank
-    @Size(max = 50)
+    
+    @Column(nullable = false)
     private String name;
-
+    
+    private String description;
+    
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
-    private Set<Product> products;
-
-    public Category(String name) {
-        this.name = name;
-    }
+    private Set<Product> products = new HashSet<>();
 } 
