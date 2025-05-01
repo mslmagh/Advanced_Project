@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
+=======
+>>>>>>> Stashed changes
 import {
   DomPortalOutlet,
   PortalModule,
   TemplatePortal
+<<<<<<< Updated upstream
 } from "./chunk-EFVFPU3E.js";
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 <<<<<<< Updated upstream
@@ -65,10 +69,18 @@ import {
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
 >>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+} from "./chunk-4MFHAJ4W.js";
+========
+} from "./chunk-EFVFPU3E.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+>>>>>>> Stashed changes
 import {
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
+<<<<<<< Updated upstream
 } from "./chunk-Y7VOOCVQ.js";
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 <<<<<<< Updated upstream
@@ -124,12 +136,86 @@ import {
 import {
   supportsScrollBehavior
 } from "./chunk-Z7XGOMFB.js";
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+} from "./chunk-GM3DTQJI.js";
+import {
+  _isTestEnvironment
+} from "./chunk-JPJU4FYC.js";
+========
+} from "./chunk-Y7VOOCVQ.js";
+import {
+  _isTestEnvironment
+} from "./chunk-F5EUNRCZ.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+import {
+  coerceCssPixelValue
+} from "./chunk-SVVIGFXE.js";
+import {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+  ScrollDispatcher,
+  ScrollingModule,
+  ViewportRuler
+} from "./chunk-GM3DTQJI.js";
+import {
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+=======
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+=======
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+  supportsScrollBehavior
+} from "./chunk-IJ3KGSPX.js";
+>>>>>>> Stashed changes
 import {
   ESCAPE,
   _IdGenerator,
   _getEventTarget,
   coerceArray,
   hasModifierKey
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+} from "./chunk-J4GKNBPF.js";
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-CARCNQOJ.js";
+import {
+  BidiModule,
+  Directionality
+} from "./chunk-X2YM2O7M.js";
+import {
+  Platform
+} from "./chunk-7TZ5YK4W.js";
+import {
+  Location
+} from "./chunk-6WJ46GLD.js";
+import {
+  DOCUMENT
+} from "./chunk-BJJC6FNP.js";
+========
+>>>>>>> Stashed changes
 } from "./chunk-U7YFLKCF.js";
 import {
   _CdkPrivateStyleLoader,
@@ -148,6 +234,10 @@ import {
 import {
   DOCUMENT
 } from "./chunk-YRPTRWJS.js";
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+>>>>>>> Stashed changes
 import {
   ANIMATION_MODULE_TYPE,
   ApplicationRef,
@@ -181,6 +271,18 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵgetInheritedFactory
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+} from "./chunk-ZU533V4U.js";
+import {
+  merge
+} from "./chunk-FFZIAYYX.js";
+import {
+  Subject,
+  Subscription,
+========
+>>>>>>> Stashed changes
 } from "./chunk-4UBR7WAK.js";
 import {
   require_cjs
@@ -189,6 +291,7 @@ import {
   require_operators
 } from "./chunk-XCIYP5SE.js";
 import {
+<<<<<<< Updated upstream
   __spreadProps,
   __spreadValues,
   __toESM
@@ -197,6 +300,17 @@ import {
 // node_modules/@angular/cdk/fesm2022/overlay-module-B7ipGu18.mjs
 var import_rxjs = __toESM(require_cjs(), 1);
 var import_operators = __toESM(require_operators(), 1);
+=======
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+  __spreadProps,
+  __spreadValues,
+  filter,
+  takeUntil,
+  takeWhile
+} from "./chunk-CXCX2JKZ.js";
+
+// node_modules/@angular/cdk/fesm2022/overlay-module-B7ipGu18.mjs
+>>>>>>> Stashed changes
 var scrollBehaviorSupported = supportsScrollBehavior();
 var BlockScrollStrategy = class {
   _viewportRuler;
@@ -289,7 +403,11 @@ var CloseScrollStrategy = class {
     if (this._scrollSubscription) {
       return;
     }
+<<<<<<< Updated upstream
     const stream = this._scrollDispatcher.scrolled(0).pipe((0, import_operators.filter)((scrollable) => {
+=======
+    const stream = this._scrollDispatcher.scrolled(0).pipe(filter((scrollable) => {
+>>>>>>> Stashed changes
       return !scrollable || !this._overlayRef.overlayElement.contains(scrollable.getElementRef().nativeElement);
     }));
     if (this._config && this._config.threshold && this._config.threshold > 1) {
@@ -846,12 +964,21 @@ var OverlayRef = class {
   _animationsDisabled;
   _injector;
   _renderer;
+<<<<<<< Updated upstream
   _backdropClick = new import_rxjs.Subject();
   _attachments = new import_rxjs.Subject();
   _detachments = new import_rxjs.Subject();
   _positionStrategy;
   _scrollStrategy;
   _locationChanges = import_rxjs.Subscription.EMPTY;
+=======
+  _backdropClick = new Subject();
+  _attachments = new Subject();
+  _detachments = new Subject();
+  _positionStrategy;
+  _scrollStrategy;
+  _locationChanges = Subscription.EMPTY;
+>>>>>>> Stashed changes
   _backdropRef = null;
   /**
    * Reference to the parent of the `_host` at the time it was detached. Used to restore
@@ -859,10 +986,17 @@ var OverlayRef = class {
    */
   _previousHostParent;
   /** Stream of keydown events dispatched to this overlay. */
+<<<<<<< Updated upstream
   _keydownEvents = new import_rxjs.Subject();
   /** Stream of mouse outside events dispatched to this overlay. */
   _outsidePointerEvents = new import_rxjs.Subject();
   _renders = new import_rxjs.Subject();
+=======
+  _keydownEvents = new Subject();
+  /** Stream of mouse outside events dispatched to this overlay. */
+  _outsidePointerEvents = new Subject();
+  _renders = new Subject();
+>>>>>>> Stashed changes
   _afterRenderRef;
   /** Reference to the currently-running `afterNextRender` call. */
   _afterNextRenderRef;
@@ -1175,7 +1309,11 @@ var OverlayRef = class {
   /** Detaches the overlay content next time the zone stabilizes. */
   _detachContentWhenEmpty() {
     this._ngZone.runOutsideAngular(() => {
+<<<<<<< Updated upstream
       const subscription = this._renders.pipe((0, import_operators.takeUntil)((0, import_rxjs.merge)(this._attachments, this._detachments))).subscribe(() => {
+=======
+      const subscription = this._renders.pipe(takeUntil(merge(this._attachments, this._detachments))).subscribe(() => {
+>>>>>>> Stashed changes
         if (!this._pane || !this._host || this._pane.children.length === 0) {
           if (this._pane && this._config.panelClass) {
             this._toggleClasses(this._pane, this._config.panelClass, false);
@@ -1252,9 +1390,15 @@ var FlexibleConnectedPositionStrategy = class {
   /** The last calculated scroll visibility. Only tracked  */
   _lastScrollVisibility;
   /** Subject that emits whenever the position changes. */
+<<<<<<< Updated upstream
   _positionChanges = new import_rxjs.Subject();
   /** Subscription to viewport size changes. */
   _resizeSubscription = import_rxjs.Subscription.EMPTY;
+=======
+  _positionChanges = new Subject();
+  /** Subscription to viewport size changes. */
+  _resizeSubscription = Subscription.EMPTY;
+>>>>>>> Stashed changes
   /** Default offset for the overlay along the x axis. */
   _offsetX = 0;
   /** Default offset for the overlay along the y axis. */
@@ -2458,10 +2602,17 @@ var CdkConnectedOverlay = class _CdkConnectedOverlay {
   });
   _overlayRef;
   _templatePortal;
+<<<<<<< Updated upstream
   _backdropSubscription = import_rxjs.Subscription.EMPTY;
   _attachSubscription = import_rxjs.Subscription.EMPTY;
   _detachSubscription = import_rxjs.Subscription.EMPTY;
   _positionSubscription = import_rxjs.Subscription.EMPTY;
+=======
+  _backdropSubscription = Subscription.EMPTY;
+  _attachSubscription = Subscription.EMPTY;
+  _detachSubscription = Subscription.EMPTY;
+  _positionSubscription = Subscription.EMPTY;
+>>>>>>> Stashed changes
   _offsetX;
   _offsetY;
   _position;
@@ -2697,7 +2848,11 @@ var CdkConnectedOverlay = class _CdkConnectedOverlay {
     }
     this._positionSubscription.unsubscribe();
     if (this.positionChange.observers.length > 0) {
+<<<<<<< Updated upstream
       this._positionSubscription = this._position.positionChanges.pipe((0, import_operators.takeWhile)(() => this.positionChange.observers.length > 0)).subscribe((position) => {
+=======
+      this._positionSubscription = this._position.positionChanges.pipe(takeWhile(() => this.positionChange.observers.length > 0)).subscribe((position) => {
+>>>>>>> Stashed changes
         this._ngZone.run(() => this.positionChange.emit(position));
         if (this.positionChange.observers.length === 0) {
           this._positionSubscription.unsubscribe();
@@ -2923,8 +3078,11 @@ var OverlayModule = class _OverlayModule {
 })();
 
 // node_modules/@angular/cdk/fesm2022/overlay.mjs
+<<<<<<< Updated upstream
 var import_rxjs2 = __toESM(require_cjs(), 1);
 var import_operators2 = __toESM(require_operators(), 1);
+=======
+>>>>>>> Stashed changes
 var FullscreenOverlayContainer = class _FullscreenOverlayContainer extends OverlayContainer {
   _renderer = inject(RendererFactory2).createRenderer(null, null);
   _fullScreenEventName;
@@ -3002,12 +3160,17 @@ export {
   CdkConnectedOverlay,
   OverlayModule
 };
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 <<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-53ZCYEGZ.js
 >>>>>>> Stashed changes
 =======
@@ -3042,10 +3205,41 @@ export {
 =======
 >>>>>>> Stashed changes
 =======
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+//# sourceMappingURL=chunk-NROYEGC7.js.map
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>> Stashed changes
+=======
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+=======
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 ========
 //# sourceMappingURL=chunk-RPYWFG76.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+<<<<<<< Updated upstream
 ========
 //# sourceMappingURL=chunk-RPYWFG76.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
@@ -3064,4 +3258,6 @@ export {
 ========
 //# sourceMappingURL=chunk-RPYWFG76.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

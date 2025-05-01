@@ -147,6 +147,7 @@ public class ProductController {
                 .orElse(ResponseEntity.notFound().build());
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 } 
 package com.yourcompany.project.controller;
 
@@ -352,6 +353,8 @@ public class ProductController {
                 .orElse(ResponseEntity.notFound().build());
 >>>>>>> Stashed changes
     }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 } 

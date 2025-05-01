@@ -2,15 +2,36 @@ import {
   DomPortalOutlet,
   PortalModule,
   TemplatePortal
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 } from "./chunk-4MFHAJ4W.js";
+========
+} from "./chunk-EFVFPU3E.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+=======
+} from "./chunk-4MFHAJ4W.js";
+>>>>>>> Stashed changes
 import {
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+=======
+>>>>>>> Stashed changes
 } from "./chunk-GM3DTQJI.js";
 import {
   _isTestEnvironment
 } from "./chunk-JPJU4FYC.js";
+<<<<<<< Updated upstream
+========
+} from "./chunk-Y7VOOCVQ.js";
+import {
+  _isTestEnvironment
+} from "./chunk-F5EUNRCZ.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+=======
+>>>>>>> Stashed changes
 import {
   coerceCssPixelValue
 } from "./chunk-SVVIGFXE.js";
@@ -18,10 +39,17 @@ import {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
 =======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
@@ -35,11 +63,21 @@ import {
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 =======
 ========
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+>>>>>>> Stashed changes
+=======
+=======
+>>>>>>> Stashed changes
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+========
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 ========
@@ -55,6 +93,10 @@ import {
   _getEventTarget,
   coerceArray,
   hasModifierKey
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+=======
+>>>>>>> Stashed changes
 } from "./chunk-J4GKNBPF.js";
 import {
   _CdkPrivateStyleLoader,
@@ -73,6 +115,29 @@ import {
 import {
   DOCUMENT
 } from "./chunk-BJJC6FNP.js";
+<<<<<<< Updated upstream
+========
+} from "./chunk-U7YFLKCF.js";
+import {
+  _CdkPrivateStyleLoader,
+  _bindEventWithOptions
+} from "./chunk-3KMM4KC3.js";
+import {
+  BidiModule,
+  Directionality
+} from "./chunk-KUDK3IEG.js";
+import {
+  Platform
+} from "./chunk-D5UE5VDW.js";
+import {
+  Location
+} from "./chunk-KXIDSWWM.js";
+import {
+  DOCUMENT
+} from "./chunk-YRPTRWJS.js";
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+=======
+>>>>>>> Stashed changes
 import {
   ANIMATION_MODULE_TYPE,
   ApplicationRef,
@@ -106,6 +171,10 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵgetInheritedFactory
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+=======
+>>>>>>> Stashed changes
 } from "./chunk-ZU533V4U.js";
 import {
   merge
@@ -113,6 +182,19 @@ import {
 import {
   Subject,
   Subscription,
+<<<<<<< Updated upstream
+========
+} from "./chunk-4UBR7WAK.js";
+import {
+  require_cjs
+} from "./chunk-ZUJ64LXG.js";
+import {
+  require_operators
+} from "./chunk-XCIYP5SE.js";
+import {
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
+=======
+>>>>>>> Stashed changes
   __spreadProps,
   __spreadValues,
   filter,
@@ -2925,12 +3007,20 @@ export {
   OverlayModule
 };
 <<<<<<< Updated upstream
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
 =======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
+<<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 <<<<<<<< Updated upstream:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-NROYEGC7.js
 >>>>>>> Stashed changes
@@ -2941,6 +3031,7 @@ export {
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>> Stashed changes
@@ -2949,6 +3040,20 @@ export {
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
 >>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
 >>>>>>> Stashed changes
+=======
+=======
+>>>>>>> Stashed changes
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+========
+//# sourceMappingURL=chunk-JZ6INQU3.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps/chunk-JZ6INQU3.js
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+========
+//# sourceMappingURL=chunk-RPYWFG76.js.map
+>>>>>>>> Stashed changes:frontend/.angular/cache/19.2.8/advanced-project/vite/deps_ssr/chunk-RPYWFG76.js
 =======
 ========
 //# sourceMappingURL=chunk-JZ6INQU3.js.map
